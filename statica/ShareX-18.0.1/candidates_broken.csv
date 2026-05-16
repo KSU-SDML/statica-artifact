@@ -1,0 +1,64 @@
+method_name,line_number,file_name,to_static,reasoning
+GetReleases,90,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/GitHubUpdateChecker.cs,True,Direct Analysis
+GetLatestRelease,109,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/GitHubUpdateChecker.cs,True,Direct Analysis
+HashToString,197,ShareX-18.0.1/ShareX.HelpersLib/Cryptographic/Translator.cs,True,Direct Analysis
+GetProjectByBranch,38,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/AppVeyor.cs,True,Direct Analysis
+OnGetHistoryItems,120,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Direct Analysis
+ByteToChar,119,ShareX-18.0.1/ShareX.HelpersLib/GIF/GifClass.cs,True,Direct Analysis
+OnMessageAdded,66,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Direct Analysis
+OnProgressChanged,44,ShareX-18.0.1/ShareX.HelpersLib/Cryptographic/HashChecker.cs,True,Direct Analysis
+OnProgressChanged,90,ShareX-18.0.1/ShareX.HelpersLib/TaskEx.cs,True,Direct Analysis
+OnFavoriteRequested,130,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Direct Analysis
+OnEditRequested,135,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Direct Analysis
+OnDeleteRequested,140,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Direct Analysis
+OnDeleteFileRequested,145,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Direct Analysis
+OnProgressChanged,155,ShareX-18.0.1/ShareX.MediaLib/VideoThumbnailer.cs,True,Direct Analysis
+OnFPSUpdated,53,ShareX-18.0.1/ShareX.HelpersLib/FPSManager.cs,True,Direct Analysis
+OnProgressChanged,56,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,True,Direct Analysis
+OnEarlyURLCopyRequested,61,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,True,Direct Analysis
+ConvertResult,109,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Plik.cs,True,Direct Analysis
+OnFileWatcherTrigger,66,ShareX-18.0.1/ShareX/WatchFolder.cs,True,Cascading + LLM (No Internal Calls)
+OnImageProcessRequested,143,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,True,Cascading + LLM (No Internal Calls)
+OnPlayNotificationSound,64,ShareX-18.0.1/ShareX.HelpersLib/Forms/HashCheckerForm.cs,True,Cascading + LLM (No Internal Calls)
+OnTabChanged,223,ShareX-18.0.1/ShareX.HelpersLib/Controls/TabToTreeView.cs,True,Cascading + LLM (No Internal Calls)
+OnColorChanged,73,ShareX-18.0.1/ShareX.HelpersLib/Controls/ColorButton.cs,True,Cascading + LLM (No Internal Calls)
+OnKeyPressed,120,ShareX-18.0.1/ShareX.HelpersLib/Input/HotkeyForm.cs,True,Cascading + LLM (No Internal Calls)
+OnImportCompleted,190,ShareX-18.0.1/ShareX.HelpersLib/Controls/ExportImportControl.cs,True,Cascading + LLM (No Internal Calls)
+SelectBitmap,59,ShareX-18.0.1/ShareX.HelpersLib/Native/LayeredForm.cs,True,Cascading + LLM (No Internal Calls)
+OnEncodeStarted,171,ShareX-18.0.1/ShareX.MediaLib/FFmpegCLIManager.cs,True,Cascading + LLM (No Internal Calls)
+OnEncodeProgressChanged,176,ShareX-18.0.1/ShareX.MediaLib/FFmpegCLIManager.cs,True,Cascading + LLM (No Internal Calls)
+OnProcessRequested,212,ShareX-18.0.1/ShareX.MediaLib/Forms/ImageCombinerForm.cs,True,Cascading + LLM (No Internal Calls)
+OnCurrentShapeChanged,388,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,True,Cascading + LLM (No Internal Calls)
+OnCurrentShapeTypeChanged,393,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,True,Cascading + LLM (No Internal Calls)
+OnShapeCreated,398,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,True,Cascading + LLM (No Internal Calls)
+OnCopyImageRequested,1667,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/RegionCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+OnStopRequested,198,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/ScreenRecordForm.cs,True,Cascading + LLM (No Internal Calls)
+OnUploadRequested,132,ShareX-18.0.1/ShareX.IndexerLib/Forms/DirectoryIndexerForm.cs,True,Cascading + LLM (No Internal Calls)
+OnUploadRequested,212,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/ScrollingCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+OnPlayNotificationSound,217,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/ScrollingCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+OnRecordingStarted,298,ShareX-18.0.1/ShareX.ScreenCaptureLib/ScreenRecording/ScreenRecorder.cs,True,Cascading + LLM (No Internal Calls)
+OnThumbnailsTaken,99,ShareX-18.0.1/ShareX.MediaLib/Forms/VideoThumbnailerForm.cs,True,Cascading + LLM (No Internal Calls)
+OnDraw,98,ShareX-18.0.1/ShareX.HelpersLib/Controls/Canvas.cs,True,Cascading + LLM (No Internal Calls)
+GetLatestRelease,123,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/GitHubUpdateChecker.cs,True,Cascading Analysis
+WriteException,137,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+CopyURL,246,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyShortenedURL,265,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyThumbnailURL,284,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyDeletionURL,303,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyFile,322,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyHTMLLink,347,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyHTMLImage,367,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyHTMLLinkedImage,387,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyForumLink,407,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyForumImage,426,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyForumLinkedImage,446,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyMarkdownLink,466,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyMarkdownImage,486,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyMarkdownLinkedImage,506,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyFilePath,526,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyFileName,546,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyFileNameWithExtension,566,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+CopyFolder,586,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+ToggleFavorite,606,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,True,Cascading Analysis
+WriteElapsedMilliseconds,63,ShareX-18.0.1/ShareX.HelpersLib/DebugTimer.cs,True,Cascading + LLM (With Internal Calls)
+WriteElapsedSeconds,68,ShareX-18.0.1/ShareX.HelpersLib/DebugTimer.cs,True,Cascading + LLM (With Internal Calls)

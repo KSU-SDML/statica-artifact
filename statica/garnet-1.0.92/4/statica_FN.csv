@@ -1,0 +1,12 @@
+Method,Line,FilePath,Code
+WriteSortedSetResult,533,garnet-1.0.92/libs/server/Objects/SortedSet/SortedSetObjectImpl.cs,CA1822
+CheckIsAcquiredLockable,69,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,CA1822
+CheckIsNotAcquiredLockable,76,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,CA1822
+MakeReadOnly,589,garnet-1.0.92/test/Garnet.test/RespEtagTests.cs,CA1822
+MakeReadOnly,31,garnet-1.0.92/test/Garnet.test/RespLowMemoryTests.cs,CA1822
+HashLength,247,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/HashOps.cs,CA1822
+ListLength,178,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,CA1822
+SetLength,152,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,CA1822
+SortedSetLength,423,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,CA1822
+AcquireLockable,45,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,CA1822
+LocksAcquired,52,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,CA1822

@@ -1,0 +1,161 @@
+method_name,line_number,file_name,to_static,reasoning
+MoveDirectory_DifferentFileSystem_Correct,29,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/IO/ManagedFileSystemTests.cs,False,Cascading Analysis
+Parse,39,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/M3uParser.cs,False,Cascading Analysis
+RestartTimers,32,jellyfin-10.11.6/src/Jellyfin.LiveTv/Timers/TimerManager.cs,False,Cascading Analysis
+AddOrUpdate,64,jellyfin-10.11.6/src/Jellyfin.LiveTv/Timers/TimerManager.cs,False,Cascading Analysis
+RefreshSeriesTimers,78,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,False,Cascading Analysis
+GetProgramInfoFromCache,616,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,False,Cascading Analysis
+SearchForDuplicateShowIds,681,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,False,Cascading Analysis
+CopyProgramInfoToTimerInfo,886,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,False,Cascading Analysis
+BuildThumbCollage,89,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/StripCollageBuilder.cs,False,Cascading Analysis
+GenerateSplash,41,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/SplashscreenBuilder.cs,False,Cascading Analysis
+ReadEpisodeDetailsFromXml,177,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/EpisodeNfoParser.cs,False,Cascading Analysis
+FetchFromFileInfoNode,724,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/BaseNfoParser.cs,False,Cascading Analysis
+FetchFromStreamDetailsNode,757,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/BaseNfoParser.cs,False,Cascading Analysis
+Fetch,59,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Omdb/OmdbProvider.cs,False,Cascading Analysis
+FetchEpisodeData,132,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Omdb/OmdbProvider.cs,False,Cascading Analysis
+GetImdbId,242,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Omdb/OmdbItemProvider.cs,False,Cascading Analysis
+Fetch,71,jellyfin-10.11.6/MediaBrowser.Providers/Playlists/PlaylistItemsProvider.cs,False,Cascading Analysis
+GetPlsItems,136,jellyfin-10.11.6/MediaBrowser.Providers/Playlists/PlaylistItemsProvider.cs,False,Cascading Analysis
+GetM3uItems,146,jellyfin-10.11.6/MediaBrowser.Providers/Playlists/PlaylistItemsProvider.cs,False,Cascading Analysis
+GetZplItems,156,jellyfin-10.11.6/MediaBrowser.Providers/Playlists/PlaylistItemsProvider.cs,False,Cascading Analysis
+GetWplItems,166,jellyfin-10.11.6/MediaBrowser.Providers/Playlists/PlaylistItemsProvider.cs,False,Cascading Analysis
+AddMetadata,276,jellyfin-10.11.6/src/Jellyfin.LiveTv/Listings/ListingsManager.cs,False,Cascading Analysis
+GetImages,149,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+PopulateImages,175,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+PopulatePrimaryImages,258,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+PopulateBackdrops,314,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+PopulateBackdrops,358,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+PopulateSeasonImagesFromSeriesFolder,403,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+AddImage,439,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/LocalImageProvider.cs,False,Cascading Analysis
+Run,41,jellyfin-10.11.6/src/Jellyfin.LiveTv/Channels/ChannelPostScanTask.cs,False,Cascading Analysis
+GetService,156,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvManager.cs,False,Cascading Analysis
+GetEmbyRecordingsAsync,428,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvManager.cs,False,Cascading Analysis
+GetAuthorization,65,jellyfin-10.11.6/Jellyfin.Server.Implementations/Security/AuthorizationContext.cs,False,Cascading Analysis
+GetMediaInfo,97,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,False,Cascading Analysis
+SetAudioInfoFromTags,1267,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,False,Cascading Analysis
+AddMediaInfoWithProbe,186,jellyfin-10.11.6/Emby.Server.Implementations/Library/LiveStreamHelper.cs,False,Cascading Analysis
+GetDictionary,418,jellyfin-10.11.6/Emby.Server.Implementations/Localization/LocalizationManager.cs,False,Cascading Analysis
+ResolveMultipleInternal,188,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/Movies/MovieResolver.cs,False,Cascading Analysis
+GetMetadataPaths,556,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+SetTopParentOrAncestorIds,1605,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+SetTopParentIdsOrAncestors,1673,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+AddUserToQuery,1701,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+GetTopParentIdsForQuery,1728,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+GetConfiguredContentType,2360,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+GetTopFolderContentType,2384,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+StartScanInBackground,3171,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+SyncLibraryOptionsToLocations,3232,jellyfin-10.11.6/Emby.Server.Implementations/Library/LibraryManager.cs,False,Cascading Analysis
+GetCollections,123,jellyfin-10.11.6/Emby.Server.Implementations/Collections/CollectionManager.cs,False,Cascading Analysis
+Map,172,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/MediaStreamRepository.cs,False,Cascading Analysis
+GetInstantMixFromSong,29,jellyfin-10.11.6/Emby.Server.Implementations/Library/MusicManager.cs,False,Cascading Analysis
+GetInstantMixFromAlbum,42,jellyfin-10.11.6/Emby.Server.Implementations/Library/MusicManager.cs,False,Cascading Analysis
+GetInstantMixFromFolder,47,jellyfin-10.11.6/Emby.Server.Implementations/Library/MusicManager.cs,False,Cascading Analysis
+GetInstantMixFromPlaylist,66,jellyfin-10.11.6/Emby.Server.Implementations/Library/MusicManager.cs,False,Cascading Analysis
+UpdatePlaylistInternal,650,jellyfin-10.11.6/Emby.Server.Implementations/Playlists/PlaylistManager.cs,False,Cascading Analysis
+FillAdditional,213,jellyfin-10.11.6/Emby.Naming/TV/EpisodePathParser.cs,False,Cascading Analysis
+IsMusicAlbum,90,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/Audio/MusicAlbumResolver.cs,False,Cascading Analysis
+InternalGetRemoteLyricsAsync,325,jellyfin-10.11.6/MediaBrowser.Providers/Lyric/LyricManager.cs,False,Cascading Analysis
+CreateThumbCollage,130,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,False,Cascading Analysis
+CreatePosterCollage,168,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,False,Cascading Analysis
+CreateSquareCollage,173,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,False,Cascading Analysis
+CreateThumbCollage,178,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,False,Cascading Analysis
+RemoveObsoleteEpisodes,147,jellyfin-10.11.6/MediaBrowser.Providers/TV/SeriesMetadataService.cs,False,Cascading Analysis
+CreateSeasonsAsync,211,jellyfin-10.11.6/MediaBrowser.Providers/TV/SeriesMetadataService.cs,False,Cascading Analysis
+AppendPlaylist,326,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,False,Cascading Analysis
+AppendPlaylistCodecsField,408,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,False,Cascading Analysis
+GetNextUpEpisodes,111,jellyfin-10.11.6/Emby.Server.Implementations/TV/TVSeriesManager.cs,False,Cascading Analysis
+GetBitmap,419,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/SkiaEncoder.cs,False,Cascading Analysis
+ResolveMultipleInternal,59,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/Audio/AudioResolver.cs,False,Cascading Analysis
+GetMovieFolders,134,jellyfin-10.11.6/MediaBrowser.Controller/Entities/UserViewBuilder.cs,False,Cascading Analysis
+GetTvView,286,jellyfin-10.11.6/MediaBrowser.Controller/Entities/UserViewBuilder.cs,False,Cascading Analysis
+GetFileSystemEntryByName,186,jellyfin-10.11.6/MediaBrowser.Controller/Library/ItemResolveArgs.cs,False,Cascading Analysis
+ContainsFileSystemEntryByName,219,jellyfin-10.11.6/MediaBrowser.Controller/Library/ItemResolveArgs.cs,False,Cascading Analysis
+GetImageTags,578,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+GetTagAndFillBlurhash,747,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+GetTagsAndFillBlurhashes,782,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+GetTagsAndFillBlurhashes,787,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+AddInheritedImages,1364,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+AttachPrimaryImageAspectRatio,1474,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,False,Cascading Analysis
+GetPlaylist,79,jellyfin-10.11.6/MediaBrowser.Controller/SyncPlay/Queue/PlayQueueManager.cs,False,Cascading Analysis
+GetPlayingItemPlaylistId,227,jellyfin-10.11.6/MediaBrowser.Controller/SyncPlay/Queue/PlayQueueManager.cs,False,Cascading Analysis
+GetPlayingItemId,237,jellyfin-10.11.6/MediaBrowser.Controller/SyncPlay/Queue/PlayQueueManager.cs,False,Cascading Analysis
+SetShuffleMode,379,jellyfin-10.11.6/MediaBrowser.Controller/SyncPlay/Queue/PlayQueueManager.cs,False,Cascading Analysis
+GetVideoEncoder,452,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+GetQsvDeviceArgs,919,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+IsDoviRemoved,1436,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+IsHdr10PlusRemoved,1442,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+GetAudioBitStreamArguments,1518,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+CanStreamCopyVideo,2295,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,False,Cascading Analysis
+SaveImage,84,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ImageSaver.cs,False,Cascading Analysis
+SaveImage,225,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ImageSaver.cs,False,Cascading Analysis
+Fetch,95,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,False,Cascading Analysis
+SetVideoType,139,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,False,Cascading Analysis
+TryGetSanitizedAdditionalFields,534,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioFileProber.cs,False,Cascading Analysis
+TryGetSanitizedUFIDFields,541,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioFileProber.cs,False,Cascading Analysis
+CheckSupportedProberOption,572,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Encoder/EncoderValidator.cs,False,Cascading Analysis
+RemoveImages,74,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,False,Cascading Analysis
+ValidateImages,112,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,False,Cascading Analysis
+RefreshImages,141,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,False,Cascading Analysis
+GetLimit,350,jellyfin-10.11.6/MediaBrowser.Model/Configuration/TypeOptions.cs,False,Cascading Analysis
+GetMinWidth,355,jellyfin-10.11.6/MediaBrowser.Model/Configuration/TypeOptions.cs,False,Cascading Analysis
+IsEnabled,360,jellyfin-10.11.6/MediaBrowser.Model/Configuration/TypeOptions.cs,False,Cascading Analysis
+ContainsAnyCodec,77,jellyfin-10.11.6/MediaBrowser.Model/Dlna/CodecProfile.cs,False,Cascading Analysis
+GetOptimalAudioStream,51,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamBuilder.cs,False,Cascading Analysis
+SetOption,820,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,False,Cascading Analysis
+GetSubtitleProfiles,1155,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,False,Cascading Analysis
+DownloadSubtitles,32,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/SubtitleDownloader.cs,False,Cascading Analysis
+DownloadSubtitles,69,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/SubtitleDownloader.cs,False,Cascading Analysis
+GetDeviceId,85,jellyfin-10.11.6/Emby.Server.Implementations/Devices/DeviceId.cs,False,Cascading Analysis
+GetAllChannelEntitiesAsync,323,jellyfin-10.11.6/src/Jellyfin.LiveTv/Channels/ChannelManager.cs,False,Cascading + LLM (With Internal Calls)
+RefreshLatestChannelItems,660,jellyfin-10.11.6/src/Jellyfin.LiveTv/Channels/ChannelManager.cs,False,Cascading + LLM (With Internal Calls)
+GetOutputFormat,224,jellyfin-10.11.6/src/Jellyfin.Drawing/ImageProcessor.cs,False,Cascading + LLM (With Internal Calls)
+GetCacheFilePath,255,jellyfin-10.11.6/src/Jellyfin.Drawing/ImageProcessor.cs,False,Cascading + LLM (With Internal Calls)
+GetResultsFromResponse,100,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/MusicBrainz/MusicBrainzArtistProvider.cs,False,Cascading + LLM (With Internal Calls)
+GetReleaseSearchResult,118,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/MusicBrainz/MusicBrainzAlbumProvider.cs,False,Cascading + LLM (With Internal Calls)
+CanDelete,863,jellyfin-10.11.6/MediaBrowser.Controller/Entities/BaseItem.cs,False,Cascading + LLM (With Internal Calls)
+CanDownload,885,jellyfin-10.11.6/MediaBrowser.Controller/Entities/BaseItem.cs,False,Cascading + LLM (With Internal Calls)
+GetParents,1019,jellyfin-10.11.6/MediaBrowser.Controller/Entities/BaseItem.cs,False,Cascading + LLM (With Internal Calls)
+FindParent,1036,jellyfin-10.11.6/MediaBrowser.Controller/Entities/BaseItem.cs,False,Cascading + LLM (With Internal Calls)
+GetSubtitleStream,156,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Subtitles/SubtitleEncoder.cs,False,Cascading + LLM (With Internal Calls)
+GetManageableItems,159,jellyfin-10.11.6/MediaBrowser.Controller/Playlists/Playlist.cs,False,Cascading + LLM (With Internal Calls)
+GetPlayableItems,164,jellyfin-10.11.6/MediaBrowser.Controller/Playlists/Playlist.cs,False,Cascading + LLM (With Internal Calls)
+GetMusicArtist,69,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Audio/MusicAlbum.cs,False,Cascading + LLM (With Internal Calls)
+RefreshArtists,206,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Audio/MusicAlbum.cs,False,Cascading + LLM (With Internal Calls)
+SearchMovieAsync,442,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Tmdb/TmdbClientManager.cs,False,Cascading + LLM (With Internal Calls)
+CheckTunerAvailability,49,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/HdHomerun/HdHomerunManager.cs,False,Cascading + LLM (With Internal Calls)
+Stop,57,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/TranscodingSegmentCleaner.cs,False,Cascading + LLM (With Internal Calls)
+GetAttachmentStream,225,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Attachments/AttachmentExtractor.cs,False,Cascading + LLM (With Internal Calls)
+SetDefaultSubtitleStreamIndex,393,jellyfin-10.11.6/Emby.Server.Implementations/Library/MediaSourceManager.cs,False,Cascading + LLM (With Internal Calls)
+SetDefaultAudioStreamIndex,426,jellyfin-10.11.6/Emby.Server.Implementations/Library/MediaSourceManager.cs,False,Cascading + LLM (With Internal Calls)
+StartWatching,141,jellyfin-10.11.6/Emby.Server.Implementations/IO/LibraryMonitor.cs,False,Cascading + LLM (With Internal Calls)
+StopWatchingPath,270,jellyfin-10.11.6/Emby.Server.Implementations/IO/LibraryMonitor.cs,False,Cascading + LLM (With Internal Calls)
+LoadTriggers,439,jellyfin-10.11.6/Emby.Server.Implementations/ScheduledTasks/ScheduledTaskWorker.cs,False,Cascading + LLM (With Internal Calls)
+OnTaskCompleted,228,jellyfin-10.11.6/Emby.Server.Implementations/ScheduledTasks/TaskManager.cs,False,Cascading + LLM (With Internal Calls)
+GetUsers,94,jellyfin-10.11.6/Jellyfin.Api/Controllers/UserController.cs,False,Cascading + LLM (With Internal Calls)
+GetVariantHlsVideoPlaylist,758,jellyfin-10.11.6/Jellyfin.Api/Controllers/DynamicHlsController.cs,False,Cascading + LLM (With Internal Calls)
+GetVariantHlsAudioPlaylist,930,jellyfin-10.11.6/Jellyfin.Api/Controllers/DynamicHlsController.cs,False,Cascading + LLM (With Internal Calls)
+GetHlsVideoSegment,1106,jellyfin-10.11.6/Jellyfin.Api/Controllers/DynamicHlsController.cs,False,Cascading + LLM (With Internal Calls)
+GetHlsAudioSegment,1291,jellyfin-10.11.6/Jellyfin.Api/Controllers/DynamicHlsController.cs,False,Cascading + LLM (With Internal Calls)
+ValidateChildren,274,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+RefreshMetadataRecursive,557,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetItems,915,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetItemList,932,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetRecursiveChildren,1449,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetRecursiveChildren,1454,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetRecursiveChildren,1459,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetRecursiveChildren,1464,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,False,Cascading + LLM (With Internal Calls)
+GetInstantMixFromArtists2,329,jellyfin-10.11.6/Jellyfin.Api/Controllers/InstantMixController.cs,False,Cascading + LLM (With Internal Calls)
+UpdateNowPlayingItem,385,jellyfin-10.11.6/Emby.Server.Implementations/Session/SessionManager.cs,False,Cascading + LLM (With Internal Calls)
+RemoveNowPlayingItem,474,jellyfin-10.11.6/Emby.Server.Implementations/Session/SessionManager.cs,False,Cascading + LLM (With Internal Calls)
+FlattenItems,212,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Movies/BoxSet.cs,False,Cascading + LLM (With Internal Calls)
+FlattenItems,218,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Movies/BoxSet.cs,False,Cascading + LLM (With Internal Calls)
+GetEpisodes,197,jellyfin-10.11.6/MediaBrowser.Controller/Entities/TV/Season.cs,False,Cascading + LLM (With Internal Calls)
+GetSeasons,198,jellyfin-10.11.6/MediaBrowser.Controller/Entities/TV/Series.cs,False,Cascading + LLM (With Internal Calls)
+GetSeasonEpisodes,414,jellyfin-10.11.6/MediaBrowser.Controller/Entities/TV/Series.cs,False,Cascading + LLM (With Internal Calls)
+GetAdditionalParts,398,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Video.cs,False,Cascading + LLM (With Internal Calls)
+GetVideoStreamByContainer,557,jellyfin-10.11.6/Jellyfin.Api/Controllers/VideosController.cs,False,Cascading + LLM (With Internal Calls)
+Stop,76,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/TranscodingThrottler.cs,False,Cascading + LLM (With Internal Calls)
+GetActualChildren,329,jellyfin-10.11.6/MediaBrowser.Controller/Entities/CollectionFolder.cs,False,Cascading + LLM (With Internal Calls)
+GetPhysicalFolders,334,jellyfin-10.11.6/MediaBrowser.Controller/Entities/CollectionFolder.cs,False,Cascading + LLM (With Internal Calls)
+ChangePluginState,513,jellyfin-10.11.6/Emby.Server.Implementations/Plugins/PluginManager.cs,False,Cascading + LLM (With Internal Calls)

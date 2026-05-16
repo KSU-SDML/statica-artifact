@@ -1,0 +1,17 @@
+method_name,line_number,file_name,to_static,reasoning
+LoadData,95,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestLoader.cs,True,Direct Analysis
+IncrementValue,646,garnet-1.0.92/libs/storage/Tsavorite/cs/test/ExpirationTests.cs,True,Direct Analysis
+SkipRecord,459,garnet-1.0.92/libs/server/AOF/AofProcessor.cs,True,Direct Analysis
+ReplayStoredProc,268,garnet-1.0.92/libs/server/AOF/ReplayCoordinator/AofReplayCoordinator.cs,True,Direct Analysis
+ConnectionStressTest,270,garnet-1.0.92/samples/GarnetClientSample/GarnetClientSamples.cs,True,Direct Analysis
+GetKey,35,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericFrame.cs,True,Cascading + LLM (No Internal Calls)
+GetValue,40,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericFrame.cs,True,Cascading + LLM (No Internal Calls)
+GetInfo,45,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericFrame.cs,True,Cascading + LLM (No Internal Calls)
+GetPage,50,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericFrame.cs,True,Cascading + LLM (No Internal Calls)
+ReadCacheAbandonRecord,235,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/ReadCache.cs,True,Cascading + LLM (No Internal Calls)
+Recover,236,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/CheckpointManagement/RecoveryInfo.cs,True,Cascading Analysis
+WriteKey,396,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Cascading Analysis
+WriteKey,402,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Cascading Analysis
+Dump,219,garnet-1.0.92/libs/server/Metrics/Latency/GarnetLatencyMetrics.cs,True,Cascading Analysis
+Reset,145,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLogRecoveryInfo.cs,True,Cascading Analysis
+ResetAll,91,garnet-1.0.92/libs/server/Metrics/Latency/GarnetLatencyMetricsSession.cs,True,Cascading Analysis

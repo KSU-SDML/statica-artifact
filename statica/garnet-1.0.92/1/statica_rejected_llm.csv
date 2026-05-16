@@ -1,0 +1,26 @@
+method_name,line_number,file_name,to_static,reasoning
+OnCompleted,154,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,This method is an implementation of the IObserver interface.
+OnError,157,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,This method is an implementation of the IObserver interface.
+AcquireLockable,45,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+LocksAcquired,52,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+ReleaseLockable,59,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+CheckIsAcquiredLockable,69,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+CheckIsNotAcquiredLockable,76,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+ResetModified,168,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+CompletePending,231,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+IsModified,333,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,This method is an implementation of the IClientSession interface.
+PopulatePage,1000,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericAllocatorImpl.cs,False,This method is an override of a method in the AllocatorBase class.
+Scan,170,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectBase.cs,False,This method is an implementation of the IGarnetObject interface.
+TryReadAsync,469,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,This method is an implementation of the IDevice interface.
+TryWriteAsync,652,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,This method is an implementation of the IDevice interface.
+BeginScope,18,garnet-1.0.92/libs/host/MemoryLogger.cs,False,This method is an implementation of the ILogger interface.
+IsEnabled,23,garnet-1.0.92/libs/host/MemoryLogger.cs,False,This method is an implementation of the ILogger interface.
+GetDevice,54,garnet-1.0.92/libs/cluster/Server/Replication/GarnetClusterCheckpointManager.cs,False,This method is an implementation of the ICheckpointManager interface.
+OnCompleted,44,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,This method is an implementation of the IObserver interface.
+OnError,46,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,This method is an implementation of the IObserver interface.
+GetNext,222,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLogIterator.cs,False,This method is an override of a method in the ScanIteratorBase class.
+GetNext,315,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLogIterator.cs,False,This method is an override of a method in the ScanIteratorBase class.
+Reset,168,garnet-1.0.92/metrics/HdrHistogram/Iteration/AbstractHistogramEnumerator.cs,False,This method is an implementation of the IEnumerator interface.
+DisposeResources,178,garnet-1.0.92/libs/common/Networking/TcpNetworkHandlerBase.cs,False,This method is an override of a method in the NetworkHandler class.
+GetAndInitializeValue,80,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/SpanByteAllocatorImpl.cs,False,This method is an override of a method in the AllocatorBase class.
+TryFindRecordInMainLogForPendingOperation,260,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,FALSE,

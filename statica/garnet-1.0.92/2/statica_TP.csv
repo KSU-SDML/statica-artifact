@@ -1,0 +1,81 @@
+method_name,line_number,file_name,to_static,reasoning
+TestRevivifyAsync,154,garnet-1.0.92/test/Garnet.test/RespRevivificationTests.cs,True,Direct Analysis
+IsArray,83,garnet-1.0.92/test/Garnet.test/Resp/ACL/UserAclResult.cs,True,Direct Analysis
+IsValue,88,garnet-1.0.92/test/Garnet.test/Resp/ACL/UserAclResult.cs,True,Direct Analysis
+SubscribeAndPublish,204,garnet-1.0.92/test/Garnet.test/RespPubSubTests.cs,True,Direct Analysis
+OperationParamsProvider,27,garnet-1.0.92/benchmark/BDN.benchmark/Operations/OperationsBase.cs,True,Direct Analysis
+SetupOperation,108,garnet-1.0.92/benchmark/BDN.benchmark/Operations/OperationsBase.cs,True,Direct Analysis
+SetupOperation,116,garnet-1.0.92/benchmark/BDN.benchmark/Operations/OperationsBase.cs,True,Direct Analysis
+SetupOperation,127,garnet-1.0.92/benchmark/BDN.benchmark/Operations/OperationsBase.cs,True,Direct Analysis
+GetSlotVerificationMessage,42,garnet-1.0.92/libs/cluster/Session/SlotVerification/RespClusterSlotVerify.cs,True,Direct Analysis
+GetBitmapSize,17,garnet-1.0.92/benchmark/BDN.benchmark/Bitmap/UnaryOperations.cs,True,Direct Analysis
+Initialize,590,garnet-1.0.92/libs/server/Servers/GarnetServerOptions.cs,True,Direct Analysis
+Initialize,27,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/CheckpointManagement/NullNamedDeviceFactory.cs,True,Direct Analysis
+GetBitmapSizes,20,garnet-1.0.92/benchmark/BDN.benchmark/Bitmap/BinaryOperations.cs,True,Direct Analysis
+IsUserNameAuthorized,112,garnet-1.0.92/libs/server/Auth/GarnetAadAuthenticator.cs,True,Direct Analysis
+ConvertToHeap,78,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectStoreOutput.cs,True,Direct Analysis
+IsValid,184,garnet-1.0.92/modules/GarnetJSON/JSONPath/ArraySliceFilter.cs,True,Direct Analysis
+IncorrectObjectType,193,garnet-1.0.92/libs/server/Storage/Functions/ObjectStore/PrivateMethods.cs,True,Direct Analysis
+IsValid,203,garnet-1.0.92/modules/GarnetJSON/JSONPath/ScanArraySliceFilter.cs,True,Direct Analysis
+EtagAndValMatches,1624,garnet-1.0.92/test/Garnet.test/RespEtagTests.cs,True,Direct Analysis
+CheckExistenceConditionOnAllKeys,152,garnet-1.0.92/test/Garnet.test/ExpiredKeyDeletionTests.cs,True,Direct Analysis
+GetStat,327,garnet-1.0.92/test/Garnet.test.cluster/ClusterManagementTests.cs,True,Direct Analysis
+NetworkParamsProvider,25,garnet-1.0.92/benchmark/BDN.benchmark/Network/NetworkBase.cs,True,Direct Analysis
+SetupOperation,69,garnet-1.0.92/benchmark/BDN.benchmark/Network/NetworkBase.cs,True,Direct Analysis
+GetDatabasePersistenceStats,361,garnet-1.0.92/libs/server/Metrics/Info/GarnetInfoMetrics.cs,True,Direct Analysis
+ExecuteTxnBulkRead,768,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestContext.cs,True,Direct Analysis
+singleSlotKeys,114,garnet-1.0.92/test/Garnet.test.cluster/RedirectTests/BaseCommand.cs,True,Direct Analysis
+crossSlotKeys,136,garnet-1.0.92/test/Garnet.test.cluster/RedirectTests/BaseCommand.cs,True,Direct Analysis
+ClusterParamsProvider,26,garnet-1.0.92/benchmark/BDN.benchmark/Cluster/ClusterMigrate.cs,True,Direct Analysis
+ClusterParamsProvider,23,garnet-1.0.92/benchmark/BDN.benchmark/Cluster/ClusterOperations.cs,True,Direct Analysis
+GetOptions,39,garnet-1.0.92/libs/server/Objects/SortedSet/SortedSetObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+ListMove,861,garnet-1.0.92/libs/server/Resp/Objects/ListCommands.cs,True,Cascading + LLM (No Internal Calls)
+RMW_MainStore,74,garnet-1.0.92/libs/server/Storage/Session/MainStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+Read_MainStore,88,garnet-1.0.92/libs/server/Storage/Session/MainStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+GETDEL,190,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+SET,337,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+SET,344,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+SET,494,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+SETRANGE,1136,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+Increment,1152,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+SCAN,1207,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+RMW_ObjectStore,14,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+Read_ObjectStore,33,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+TryTransientXLock,14,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/Locking/TransientLocking.cs,True,Cascading + LLM (No Internal Calls)
+TryTransientSLock,38,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/Locking/TransientLocking.cs,True,Cascading + LLM (No Internal Calls)
+RMWObjectStoreOperation,22,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+RMWObjectStoreOperationWithOutput,60,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+ReadObjectStoreOperationWithOutput,82,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+StringBitField,401,garnet-1.0.92/libs/server/Storage/Session/MainStore/BitmapOps.cs,True,Cascading + LLM (With Internal Calls)
+StringBitFieldReadOnly,415,garnet-1.0.92/libs/server/Storage/Session/MainStore/BitmapOps.cs,True,Cascading + LLM (With Internal Calls)
+GETDEL,176,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (With Internal Calls)
+SET,486,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (With Internal Calls)
+RMWObjectStoreOperation,38,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (With Internal Calls)
+ReadObjectStoreOperationWithOutput,104,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (With Internal Calls)
+HashTimeToLive,567,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/HashOps.cs,True,Cascading + LLM (With Internal Calls)
+ListTrim,339,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,True,Cascading + LLM (With Internal Calls)
+ListPosition,378,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetExpire,1566,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetTimeToLive,1616,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (With Internal Calls)
+ToNullableInt,1605,garnet-1.0.92/test/Garnet.test/RespListTests.cs,True,Direct Analysis
+ShowStats,63,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestStats.cs,True,Direct Analysis
+ShowStats,71,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestStats.cs,True,Direct Analysis
+_get_register,158,garnet-1.0.92/libs/server/Resp/HyperLogLog/HyperLogLog.cs,True,Direct Analysis
+WriteHeader,12,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteInteger,377,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteInteger,397,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteStringBytes,418,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteHeader,12,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteInteger,40,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteInteger,60,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteStringBytes,81,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+UpdateSlot,354,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/TsavoriteBase.cs,True,Direct Analysis
+EvaluateExpireInPlace,277,garnet-1.0.92/libs/server/Storage/Functions/MainStore/PrivateMethods.cs,True,Direct Analysis
+EvaluateExpireCopyUpdate,335,garnet-1.0.92/libs/server/Storage/Functions/MainStore/PrivateMethods.cs,True,Direct Analysis
+MakeUpperCase,659,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)
+Write,1201,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)
+Write,1221,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)
+TryGetResult,507,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,True,Cascading + LLM (No Internal Calls)
+Increment,1166,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+Compact,92,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Checkpoint.cs,True,Cascading + LLM (No Internal Calls)
+SET,501,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (With Internal Calls)

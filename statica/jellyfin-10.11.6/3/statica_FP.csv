@@ -1,0 +1,23 @@
+method_name,line_number,file_name,to_static,reasoning
+Invoke,28,jellyfin-10.11.6/Jellyfin.Api/Middleware/QueryStringDecodingMiddleware.cs,True,Direct Analysis
+Invoke,29,jellyfin-10.11.6/Jellyfin.Api/Middleware/WebSocketHandlerMiddleware.cs,True,Direct Analysis
+ToMetadata,631,jellyfin-10.11.6/Emby.Server.Implementations/IO/ManagedFileSystem.cs,True,Direct Analysis
+Invoke,33,jellyfin-10.11.6/Jellyfin.Api/Middleware/ServerStartupMessageMiddleware.cs,True,Direct Analysis
+GetRecordings,277,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetRecordingsSeries,364,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetRecordingGroups,394,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetTimers,515,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetSeriesTimers,896,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetRecordingGroup,963,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetSearchHints,82,jellyfin-10.11.6/Jellyfin.Api/Controllers/SearchController.cs,True,Cascading + LLM (No Internal Calls)
+GetChannels,57,jellyfin-10.11.6/Jellyfin.Api/Controllers/ChannelsController.cs,True,Cascading + LLM (No Internal Calls)
+ValidatePath,80,jellyfin-10.11.6/Jellyfin.Api/Controllers/EnvironmentController.cs,True,Cascading + LLM (No Internal Calls)
+SendPlaystateCommand,165,jellyfin-10.11.6/Jellyfin.Api/Controllers/SessionController.cs,True,Cascading + LLM (No Internal Calls)
+PingTimer,145,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Transcoding/TranscodeManager.cs,True,Cascading + LLM (No Internal Calls)
+CreatePlaylist,77,jellyfin-10.11.6/Jellyfin.Api/Controllers/PlaylistsController.cs,True,Cascading + LLM (No Internal Calls)
+UpdateUserEasyPassword,356,jellyfin-10.11.6/Jellyfin.Api/Controllers/UserController.cs,True,Cascading + LLM (No Internal Calls)
+GetLogEntries,43,jellyfin-10.11.6/Jellyfin.Api/Controllers/ActivityLogController.cs,True,Cascading + LLM (No Internal Calls)
+UpdateMediaEncoderPath,158,jellyfin-10.11.6/Jellyfin.Api/Controllers/ConfigurationController.cs,True,Cascading + LLM (No Internal Calls)
+GetBitrateTestBytes,331,jellyfin-10.11.6/Jellyfin.Api/Controllers/MediaInfoController.cs,True,Cascading + LLM (No Internal Calls)
+GetCriticReviews,125,jellyfin-10.11.6/Jellyfin.Api/Controllers/LibraryController.cs,True,Cascading + LLM (No Internal Calls)
+GetPosterUrl,529,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Tmdb/TmdbClientManager.cs,True,Cascading + LLM (With Internal Calls)

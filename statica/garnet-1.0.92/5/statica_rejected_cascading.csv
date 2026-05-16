@@ -1,0 +1,154 @@
+method_name,line_number,file_name,to_static,reasoning
+AssertNoLocks,281,garnet-1.0.92/libs/storage/Tsavorite/cs/test/LockableUnsafeContextTests.cs,False,Cascading Analysis
+SlowConsumeMessage,134,garnet-1.0.92/benchmark/BDN.benchmark/Operations/OperationsBase.cs,False,Cascading Analysis
+TryCoalesceAllFreeBlocks,700,garnet-1.0.92/libs/server/Lua/LuaLimitedManagedAllocator.cs,False,Cascading Analysis
+SplitInUseBlock,971,garnet-1.0.92/libs/server/Lua/LuaLimitedManagedAllocator.cs,False,Cascading Analysis
+SplitFreeBlock,997,garnet-1.0.92/libs/server/Lua/LuaLimitedManagedAllocator.cs,False,Cascading Analysis
+LoadData,126,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestLoader.cs,False,Cascading Analysis
+UpdateReplicationId,77,garnet-1.0.92/libs/cluster/Server/Replication/ReplicationHistoryManager.cs,False,Cascading Analysis
+Resume,194,garnet-1.0.92/libs/client/LightEpoch.cs,False,Cascading Analysis
+Resume,204,garnet-1.0.92/libs/client/LightEpoch.cs,False,Cascading Analysis
+Resume,199,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Epochs/LightEpoch.cs,False,Cascading Analysis
+WriteClusterSlotVerificationMessage,81,garnet-1.0.92/libs/cluster/Session/SlotVerification/RespClusterSlotVerify.cs,False,Cascading Analysis
+ResetInfoMetrics,72,garnet-1.0.92/libs/server/Servers/MetricsApi.cs,False,Cascading Analysis
+ResetLatencyMetrics,116,garnet-1.0.92/libs/server/Servers/MetricsApi.cs,False,Cascading Analysis
+GenerateBatch,94,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenLoadBuffers.cs,False,Cascading Analysis
+WaitForSyncCompletion,190,garnet-1.0.92/libs/cluster/Server/Replication/PrimaryOps/DisklessReplication/ReplicaSyncSession.cs,False,Cascading Analysis
+FinalizeMainIndexRecovery,65,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/IndexRecovery.cs,False,Cascading Analysis
+InitialIncrement,624,garnet-1.0.92/libs/storage/Tsavorite/cs/test/ExpirationTests.cs,False,Cascading Analysis
+InitialRead,631,garnet-1.0.92/libs/storage/Tsavorite/cs/test/ExpirationTests.cs,False,Cascading Analysis
+VerifyKeyNotCreated,671,garnet-1.0.92/libs/storage/Tsavorite/cs/test/ExpirationTests.cs,False,Cascading Analysis
+GetLatencyMetrics,190,garnet-1.0.92/libs/server/Metrics/Latency/GarnetLatencyMetrics.cs,False,Cascading Analysis
+ReadLock,79,garnet-1.0.92/libs/common/SingleWriterMultiReaderLock.cs,False,Cascading Analysis
+Reset,269,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+LowestEquivalentValue,333,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+MedianEquivalentValue,346,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+NextNonEquivalentValue,358,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+GetCountAtValue,396,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+GetCountAt,434,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+RecordSingleValue,554,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+RecordValueWithCountAndExpectedInterval,563,garnet-1.0.92/metrics/HdrHistogram/HistogramBase.cs,False,Cascading Analysis
+TryGetDatabase,566,garnet-1.0.92/libs/server/StoreWrapper.cs,False,Cascading Analysis
+TryGetOrAddDatabase,586,garnet-1.0.92/libs/server/StoreWrapper.cs,False,Cascading Analysis
+AddOrReplayTransactionOperation,81,garnet-1.0.92/libs/server/AOF/ReplayCoordinator/AofReplayCoordinator.cs,False,Cascading Analysis
+ProcessFuzzyRegionTransactionGroup,171,garnet-1.0.92/libs/server/AOF/ReplayCoordinator/AofReplayCoordinator.cs,False,Cascading Analysis
+RunAll,29,garnet-1.0.92/samples/GarnetClientSample/GarnetClientSamples.cs,False,Cascading Analysis
+RegisterType,129,garnet-1.0.92/libs/server/Custom/CustomCommandManager.cs,False,Cascading Analysis
+CopyTo,492,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/VarLen/SpanByte.cs,False,Cascading Analysis
+SignalStepAvailable,406,garnet-1.0.92/libs/storage/Tsavorite/cs/test/EpochProtectedVersionScheme.cs,False,Cascading Analysis
+TryAdvanceVersionWithCriticalSection,482,garnet-1.0.92/libs/storage/Tsavorite/cs/test/EpochProtectedVersionScheme.cs,False,Cascading Analysis
+AdvanceVersionWithCriticalSection,494,garnet-1.0.92/libs/storage/Tsavorite/cs/test/EpochProtectedVersionScheme.cs,False,Cascading Analysis
+PrepareToRecover,71,garnet-1.0.92/libs/storage/Tsavorite/cs/test/ObjectRecoveryTest.cs,False,Cascading Analysis
+PrepareToRecover,77,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+FlipPhase,210,garnet-1.0.92/metrics/HdrHistogram/Utilities/WriterReaderPhaser.cs,False,Cascading Analysis
+ThrowException,133,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+WaitForEpochSync,225,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+RandomBytesRestrictedToSlot,770,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+RandomBytesRestrictedToSlot,776,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+RandomBytes,798,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+RandomStr,828,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,False,Cascading Analysis
+ParseSide,663,garnet-1.0.92/modules/GarnetJSON/JSONPath/JsonPath.cs,False,Cascading Analysis
+GetRespInfo,560,garnet-1.0.92/libs/server/Metrics/Info/GarnetInfoMetrics.cs,False,Cascading Analysis
+GetInfoMetrics,637,garnet-1.0.92/libs/server/Metrics/Info/GarnetInfoMetrics.cs,False,Cascading Analysis
+PrepareToRecover,282,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+TestDriver,308,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+RecoverAndReadTest,434,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+RecoverAndReadTest,453,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+RecoverAndReadTest,484,garnet-1.0.92/libs/storage/Tsavorite/cs/test/RecoveryTests.cs,False,Cascading Analysis
+Recover,421,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/MallocFixedPageSize.cs,False,Cascading + LLM (With Internal Calls)
+Compact,377,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/LogAccessor.cs,False,Cascading + LLM (With Internal Calls)
+SortedSetRemoveRangeByScore,605,garnet-1.0.92/libs/server/Objects/SortedSet/SortedSetObjectImpl.cs,False,Cascading + LLM (With Internal Calls)
+SortedSetRemoveOrCountRangeByLex,675,garnet-1.0.92/libs/server/Objects/SortedSet/SortedSetObjectImpl.cs,False,Cascading + LLM (With Internal Calls)
+HashLength,97,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,False,Cascading + LLM (With Internal Calls)
+HashExists,108,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,False,Cascading + LLM (With Internal Calls)
+HashRandomField,114,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,False,Cascading + LLM (With Internal Calls)
+RestoreHybridLog,1215,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithWrongNumberOfArguments,21,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithWrongNumberOfArgumentsOrUnknownSubcommand,35,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithErrorMessage,62,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithErrorMessage,74,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithErrorMessage,87,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+AbortWithErrorMessage,98,garnet-1.0.92/libs/server/Resp/Objects/ObjectStoreUtils.cs,False,Cascading + LLM (With Internal Calls)
+ProcessArrayCommands,784,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,False,Cascading + LLM (With Internal Calls)
+NetworkRUNTXPFast,268,garnet-1.0.92/libs/server/Transaction/TxnRespCommands.cs,False,Cascading + LLM (With Internal Calls)
+GetCollectionItemAsync,93,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,False,Cascading + LLM (With Internal Calls)
+MoveCollectionItemAsync,110,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,False,Cascading + LLM (With Internal Calls)
+HandleBrokerEvent,235,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,False,Cascading + LLM (With Internal Calls)
+TryGet,131,garnet-1.0.92/modules/GarnetJSON/GarnetJsonObject.cs,False,Cascading + LLM (With Internal Calls)
+TryBeginPrimarySync,50,garnet-1.0.92/libs/cluster/Server/Replication/PrimaryOps/PrimarySync.cs,False,Cascading + LLM (With Internal Calls)
+WritePortionToBlobUnsafeAsync,542,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,Cascading + LLM (With Internal Calls)
+ReadFromBlobUnsafeAsync,594,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,Cascading + LLM (With Internal Calls)
+GET,21,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+GET,107,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+GET,120,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+GETEX,145,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+GETRANGE,204,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+SET_Conditional,352,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+DEL_Conditional,380,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+SET_Conditional,411,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+APPEND,559,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+DELETE,575,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+RENAME,635,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+RENAMENX,647,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+EXPIREAT,981,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+EXPIRE,1002,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+WATCH,1199,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,False,Cascading + LLM (With Internal Calls)
+HashGetAll,215,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/HashOps.cs,False,Cascading + LLM (With Internal Calls)
+HashRandomField,342,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/HashOps.cs,False,Cascading + LLM (With Internal Calls)
+SetMembers,178,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,False,Cascading + LLM (With Internal Calls)
+SetPop,228,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,False,Cascading + LLM (With Internal Calls)
+SortedSetCollect,1733,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,False,Cascading + LLM (With Internal Calls)
+SortedSetCollect,1750,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,False,Cascading + LLM (With Internal Calls)
+CompletePendingAsync,30,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Async/CompletePendingAsync.cs,False,Cascading + LLM (With Internal Calls)
+Compact,24,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Compaction/TsavoriteCompaction.cs,False,Cascading + LLM (With Internal Calls)
+InternalRecover,376,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,False,Cascading + LLM (With Internal Calls)
+InternalRecoverAsync,386,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,False,Cascading + LLM (With Internal Calls)
+ReadPagesForRecovery,724,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,False,Cascading + LLM (With Internal Calls)
+ReadPagesForRecoveryAsync,741,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,False,Cascading + LLM (With Internal Calls)
+SynchronizeEpoch,15,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/EpochOperations.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordInMainLog,40,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordInMainLog,52,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordForUpdate,206,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordForRead,225,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordForPendingOperation,244,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+TryFindRecordInMainLogForPendingOperation,260,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/FindRecord.cs,False,Cascading + LLM (With Internal Calls)
+HandleOperationStatus,95,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/HandleOperationStatus.cs,False,Cascading + LLM (With Internal Calls)
+IsRecordVersionNew,47,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/Helpers.cs,False,Cascading + LLM (With Internal Calls)
+CheckCPRConsistencyDelete,198,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalDelete.cs,False,Cascading + LLM (With Internal Calls)
+InternalTryLockShared,14,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalLock.cs,False,Cascading + LLM (With Internal Calls)
+InternalTryLockExclusive,29,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalLock.cs,False,Cascading + LLM (With Internal Calls)
+InternalUnlockShared,44,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalLock.cs,False,Cascading + LLM (With Internal Calls)
+InternalUnlockExclusive,59,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalLock.cs,False,Cascading + LLM (With Internal Calls)
+CheckCPRConsistencyRMW,324,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalRMW.cs,False,Cascading + LLM (With Internal Calls)
+CopyFromImmutable,176,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalRead.cs,False,Cascading + LLM (With Internal Calls)
+CheckCPRConsistencyUpsert,273,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/InternalUpsert.cs,False,Cascading + LLM (With Internal Calls)
+Recover,360,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+Recover,413,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextReadAtAddress,634,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextReadAtAddress,643,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextReadAtAddress,651,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextUpsert,666,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextUpsert,681,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextRMW,698,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+ContextDelete,715,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,False,Cascading + LLM (With Internal Calls)
+InternalCompletePendingRequest,88,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/TsavoriteThread.cs,False,Cascading + LLM (With Internal Calls)
+ListRangeAsync,132,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,False,Cascading + LLM (With Internal Calls)
+WriteOrSendMainStoreKeyValuePair,15,garnet-1.0.92/libs/cluster/Server/Migration/MigrateSessionCommonUtils.cs,False,Cascading + LLM (With Internal Calls)
+WriteOrSendObjectStoreKeyValuePair,58,garnet-1.0.92/libs/cluster/Server/Migration/MigrateSessionCommonUtils.cs,False,Cascading + LLM (With Internal Calls)
+CommitLogCheckpointSendFromPrimary,156,garnet-1.0.92/libs/cluster/Server/Replication/GarnetClusterCheckpointManager.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,139,garnet-1.0.92/libs/common/Collections/ElasticCircularBuffer.cs,False,Cascading + LLM (With Internal Calls)
+CopyDatabases,957,garnet-1.0.92/libs/server/Databases/MultiDatabaseManager.cs,False,Cascading + LLM (With Internal Calls)
+CompletePending,410,garnet-1.0.92/libs/client/ClientSession/GarnetClientSession.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,538,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,551,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+UnsafeEnqueueRaw,565,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,615,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,629,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+Enqueue,643,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+TryEnqueue,1242,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+CommitStrongly,1556,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+EnqueueAndWaitForCommit,1684,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+EnqueueAndWaitForCommit,1699,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+EnqueueAndWaitForCommit,1714,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+EnqueueAndWaitForCommit,1730,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)
+EnqueueAndWaitForCommit,1746,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/TsavoriteLog/TsavoriteLog.cs,False,Cascading + LLM (With Internal Calls)

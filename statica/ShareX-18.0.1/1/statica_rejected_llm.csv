@@ -1,0 +1,5 @@
+method_name,line_number,file_name,to_static,reasoning
+BindToName,37,ShareX-18.0.1/ShareX.HelpersLib/Settings/KnownTypesSerializationBinder.cs,False,This method is an implementation of the BindToName method from the ISerializationBinder interface.
+GetRequestRaw,151,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Mega.cs,False,This method is an implementation of the GetRequestRaw method from the IWebClient interface.
+PostRequestJson,156,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Mega.cs,False,This method is an implementation of the PostRequestJson method from the IWebClient interface.
+PostRequestRawAsStream,174,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Mega.cs,False,This method is an implementation of the PostRequestRawAsStream method from the IWebClient interface.

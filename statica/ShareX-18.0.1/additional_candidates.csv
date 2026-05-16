@@ -1,0 +1,7 @@
+method_name,line_number,file_name,to_static,reasoning
+IsValidHistoryItem,90,ShareX-18.0.1/ShareX.HistoryLib/HistoryManager.cs,True,Direct Analysis
+HandleHotkeys,385,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+Write,122,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteLine,127,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteLine,132,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteException,142,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis

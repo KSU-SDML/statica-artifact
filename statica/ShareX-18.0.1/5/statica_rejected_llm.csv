@@ -1,0 +1,2 @@
+method_name,line_number,file_name,to_static,reasoning
+BindToName,37,ShareX-18.0.1/ShareX.HelpersLib/Settings/KnownTypesSerializationBinder.cs,False,This method is an implementation of the ISerializationBinder.BindToName method.

@@ -1,0 +1,127 @@
+method_name,line_number,file_name,to_static,reasoning
+ExecuteForStringResultAsync,25,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringResultAsync,54,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringResultAsync,67,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringResult,87,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringResult,114,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringResult,127,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultAsync,256,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultAsync,283,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultAsync,296,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResult,316,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResult,343,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResult,355,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResultAsync,482,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResultAsync,509,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResultAsync,522,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResult,541,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResult,567,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForStringArrayResult,579,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArrayAsync,709,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArrayAsync,736,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArrayAsync,749,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArray,768,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArray,793,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForMemoryResultArray,805,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResultAsync,940,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResultAsync,953,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResultAsync,967,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResult,986,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResult,999,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteForLongResult,1013,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientExecuteAPI.cs,True,Cascading + LLM (No Internal Calls)
+DynamicallyRegisterCustomCommands,635,garnet-1.0.92/test/Garnet.test/RespCommandTests.cs,True,Direct Analysis
+SortedSetAdd,27,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetAdd,47,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetAddAsync,60,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetAddAsync,79,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetRemove,94,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetRemove,112,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetRemoveAsync,126,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+SortedSetRemoveAsync,144,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientSortedSetCommands.cs,True,Cascading + LLM (With Internal Calls)
+Dump,59,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Implementation/Revivification/RevivificationStats.cs,True,Direct Analysis
+SingleSetRename,56,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleSetGet,73,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleIncr,89,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleIncrBy,109,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleDecrBy,131,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleDecr,151,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleIncrNoKey,166,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleExists,187,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+SingleDelete,204,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+CustomDeserialize,59,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectSerializer.cs,True,Direct Analysis
+CheckIfKeyExists,17,garnet-1.0.92/libs/cluster/Session/SlotVerification/ClusterSlotVerify.cs,True,Direct Analysis
+SingleKeySlotVerify,26,garnet-1.0.92/libs/cluster/Session/SlotVerification/ClusterSlotVerify.cs,True,Direct Analysis
+Increment,72,garnet-1.0.92/libs/storage/Tsavorite/cs/test/LockableUnsafeContextTests.cs,True,Direct Analysis
+Decrement,80,garnet-1.0.92/libs/storage/Tsavorite/cs/test/LockableUnsafeContextTests.cs,True,Direct Analysis
+CreateKeys,306,garnet-1.0.92/libs/storage/Tsavorite/cs/test/OverflowBucketLockTableTests.cs,True,Direct Analysis
+AddThreads,391,garnet-1.0.92/libs/storage/Tsavorite/cs/test/OverflowBucketLockTableTests.cs,True,Direct Analysis
+HashGet,26,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+HashMultipleGet,43,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+HashDelete,85,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+HashStrLength,102,garnet-1.0.92/libs/server/Objects/Hash/HashObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+ProcessReplyAsString,19,garnet-1.0.92/libs/client/GarnetClientProcessReplies.cs,True,Cascading + LLM (No Internal Calls)
+ProcessReplyAsNumber,68,garnet-1.0.92/libs/client/GarnetClientProcessReplies.cs,True,Cascading + LLM (No Internal Calls)
+ProcessReplyAsStringArray,98,garnet-1.0.92/libs/client/GarnetClientProcessReplies.cs,True,Cascading + LLM (No Internal Calls)
+ProcessReplyAsMemoryByteArray,197,garnet-1.0.92/libs/client/GarnetClientProcessReplies.cs,True,Cascading + LLM (No Internal Calls)
+MultiKeySlotVerify,128,garnet-1.0.92/libs/cluster/Session/SlotVerification/ClusterSlotVerify.cs,True,Cascading Analysis
+MultiKeySlotVerify,151,garnet-1.0.92/libs/cluster/Session/SlotVerification/ClusterSlotVerify.cs,True,Cascading Analysis
+SortedSetUnion,1140,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (No Internal Calls)
+SortedSetDifference,1223,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (No Internal Calls)
+SortedSetIntersectLength,1331,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (No Internal Calls)
+SortedSetIntersection,1463,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SortedSetOps.cs,True,Cascading + LLM (No Internal Calls)
+SetPop,208,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,True,Cascading + LLM (No Internal Calls)
+SetIntersect,456,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,True,Cascading + LLM (No Internal Calls)
+SetUnion,632,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,True,Cascading + LLM (No Internal Calls)
+SetDiff,895,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/SetOps.cs,True,Cascading + LLM (No Internal Calls)
+ProcessResp2ArrayOutput,244,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+ProcessRespIntegerArrayOutput,462,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+ProcessRespInt64ArrayOutput,531,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/Common.cs,True,Cascading + LLM (No Internal Calls)
+WriteLock,42,garnet-1.0.92/libs/common/SingleWriterMultiReaderLock.cs,True,Direct Analysis
+CloseLock,127,garnet-1.0.92/libs/common/SingleWriterMultiReaderLock.cs,True,Direct Analysis
+Add,82,garnet-1.0.92/libs/server/Metrics/GarnetSessionMetrics.cs,True,Direct Analysis
+NodesMyself,165,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,True,Direct Analysis
+NodesMyself,182,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,True,Direct Analysis
+GET_WithPending,16,garnet-1.0.92/libs/server/Storage/Session/MainStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+GET_CompletePending,65,garnet-1.0.92/libs/server/Storage/Session/MainStore/AdvancedOps.cs,True,Cascading + LLM (No Internal Calls)
+GetUserHandle,57,garnet-1.0.92/libs/server/ACL/AccessControlList.cs,True,Direct Analysis
+ListPop,112,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,True,Cascading + LLM (With Internal Calls)
+ListPopMultiple,143,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,True,Cascading + LLM (With Internal Calls)
+ListLeftPush,37,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListLeftPushAsync,59,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListRightPush,91,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListRightPushAsync,113,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListLengthAsync,143,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListLeftPush,25,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+ListRightPush,79,garnet-1.0.92/libs/client/GarnetClientAPI/GarnetClientListCommands.cs,True,Cascading + LLM (With Internal Calls)
+HashRandomField,304,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/HashOps.cs,True,Cascading + LLM (With Internal Calls)
+TryGetCustomObjectSubCommand,292,garnet-1.0.92/libs/server/Custom/CustomCommandManager.cs,True,Direct Analysis
+ClusterState,251,garnet-1.0.92/test/Garnet.test.cluster/RedirectTests/ClusterSlotVerificationTests.cs,True,Direct Analysis
+AssertCompleted,69,garnet-1.0.92/libs/storage/Tsavorite/cs/test/BasicTests.cs,True,Direct Analysis
+AssertCompleted,65,garnet-1.0.92/libs/storage/Tsavorite/cs/test/UnsafeContextTests.cs,True,Direct Analysis
+Execute,145,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,True,Direct Analysis
+NodesAll,200,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,True,Direct Analysis
+IsStaticPath,75,garnet-1.0.92/modules/GarnetJSON/JSONPath/JsonPath.cs,True,Direct Analysis
+RespPingAsync,39,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+RespPing,47,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Direct Analysis
+ResponseToLong,52,garnet-1.0.92/test/Garnet.test/GarnetBitmapTests.cs,True,Direct Analysis
+GetNodeInfo,296,garnet-1.0.92/test/Garnet.test.cluster/ClientClusterConfig.cs,True,Direct Analysis
+HandleSessionDisposed,221,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,True,Cascading + LLM (No Internal Calls)
+MemoryUsageForKey,1252,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+StopPendingMetrics,29,garnet-1.0.92/libs/server/Storage/Session/Metrics.cs,True,Cascading + LLM (No Internal Calls)
+ListPop,93,garnet-1.0.92/libs/server/Storage/Session/ObjectStore/ListOps.cs,True,Cascading + LLM (No Internal Calls)
+GeoDistance,107,garnet-1.0.92/libs/server/Objects/SortedSetGeo/SortedSetGeoObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+GeoHash,84,garnet-1.0.92/libs/server/Objects/SortedSetGeo/SortedSetGeoObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+GeoPosition,143,garnet-1.0.92/libs/server/Objects/SortedSetGeo/SortedSetGeoObjectImpl.cs,True,Cascading + LLM (No Internal Calls)
+GetOptionsString,111,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/Options.cs,True,Cascading + LLM (No Internal Calls)
+GetRecoverVersion,374,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/Tsavorite.cs,True,Cascading + LLM (No Internal Calls)
+GetLatestCheckpointVersion,206,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Recovery.cs,True,Cascading + LLM (No Internal Calls)
+GetInfo,216,garnet-1.0.92/libs/cluster/Server/ClusterManager.cs,True,Cascading + LLM (No Internal Calls)
+ListReplicas,233,garnet-1.0.92/libs/cluster/Server/ClusterManagerWorkerState.cs,True,Cascading + LLM (No Internal Calls)
+RelinquishOwnership,316,garnet-1.0.92/libs/cluster/Server/Migration/MigrateSession.cs,True,Cascading + LLM (No Internal Calls)
+GetCookieData,179,garnet-1.0.92/libs/cluster/Server/Replication/GarnetClusterCheckpointManager.cs,True,Cascading + LLM (No Internal Calls)
+SlowConsumeMessage,77,garnet-1.0.92/benchmark/BDN.benchmark/Network/NetworkBase.cs,True,Cascading Analysis
+GetClusterConfig,286,garnet-1.0.92/test/Garnet.test.cluster/ClusterTestUtils.cs,True,Cascading Analysis
+DeserializeInternal,44,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectSerializer.cs,True,Cascading Analysis
+RunAll,24,garnet-1.0.92/samples/GarnetClientSample/SERedisSamples.cs,True,Cascading Analysis
+Remove,221,garnet-1.0.92/libs/server/Lua/SessionScriptCache.cs,True,Cascading + LLM (No Internal Calls)
+string,44,garnet-1.0.92/test/Garnet.test.cluster/ClusterRedirectTests.cs,True,Direct Analysis

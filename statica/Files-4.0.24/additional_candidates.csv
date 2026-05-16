@@ -1,0 +1,20 @@
+method_name,line_number,file_name,to_static,reasoning
+MarshalToSecureString,98,Files-4.0.24/src/Files.App/Utils/Storage/StorageBaseItems/StorageCredential.cs,True,Direct Analysis
+RestoreAllTrashesInternal,101,Files-4.0.24/src/Files.App/Services/Storage/StorageTrashBinService.cs,True,Direct Analysis
+ExecuteEjectDeviceCommand,188,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/NetworkLocationsWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+GenerateCommandCodes,47,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GenerateICommandManager,68,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GenerateCommandManager,94,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteEjectDeviceCommand,190,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/DrivesWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteShellCommand,49,Files-4.0.24/src/Files.App/Actions/Open/OpenClassicPropertiesAction.cs,True,Cascading + LLM (No Internal Calls)
+OpenLogLocation,101,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ReorderItemsAsync,905,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteCancelCommand,383,Files-4.0.24/src/Files.App/ViewModels/Settings/ActionsViewModel.cs,True,Cascading + LLM (No Internal Calls)
+OnPercentChanged,74,Files-4.0.24/src/Files.App.Controls/Storage/StorageRing/StorageRing.Properties.cs,True,Cascading + LLM (No Internal Calls)
+WebView_WebMessageReceived,117,Files-4.0.24/src/Files.App/Views/ReleaseNotesPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+MenuItemsHost_ElementPrepared,237,Files-4.0.24/src/Files.App.Controls/Sidebar/SidebarView.xaml.cs,True,Cascading + LLM (No Internal Calls)
+AutoSuggestBox_LosingFocus,27,Files-4.0.24/src/Files.App.Controls/Omnibar/Omnibar.Events.cs,True,Cascading + LLM (No Internal Calls)
+AutoSuggestBoxSuggestionsPopup_GettingFocus,152,Files-4.0.24/src/Files.App.Controls/Omnibar/Omnibar.Events.cs,True,Cascading + LLM (No Internal Calls)
+ReadAllKeys,116,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/StringsPropertyGenerator.cs,True,Cascading + LLM (No Internal Calls)
+KeyNameValidator,131,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/StringsPropertyGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GetAllMonitorInfo,222,Files-4.0.24/src/Files.App/Data/Items/WindowEx.cs,True,Cascading + LLM (No Internal Calls)

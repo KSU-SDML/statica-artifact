@@ -1,0 +1,40 @@
+method_name,line_number,file_name,to_static,reasoning
+Test,37,jellyfin-10.11.6/tests/Jellyfin.Naming.Tests/Video/StubTests.cs,True,Direct Analysis
+GetFullChannelIdPrefix,64,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/M3UTunerHost.cs,True,Direct Analysis
+StopTimer,147,jellyfin-10.11.6/src/Jellyfin.LiveTv/Timers/TimerManager.cs,True,Direct Analysis
+IsProgramAlreadyInLibrary,961,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,True,Direct Analysis
+BuildSquareCollageBitmap,167,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/StripCollageBuilder.cs,True,Direct Analysis
+ParseProviderLinks,229,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/BaseNfoParser.cs,True,Direct Analysis
+GetSeriesTimersInternal,862,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvManager.cs,True,Direct Analysis
+CreateUserInternalAsync,195,jellyfin-10.11.6/Jellyfin.Server.Implementations/Users/UserManager.cs,True,Direct Analysis
+SplitDistinctArtists,1428,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+GetChannelMediaSources,310,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvMediaSourceProvider.cs,True,Direct Analysis
+GetInstantMixFromGenreIds,88,jellyfin-10.11.6/Emby.Server.Implementations/Library/MusicManager.cs,True,Direct Analysis
+GetTvNextUp,333,jellyfin-10.11.6/MediaBrowser.Controller/Entities/UserViewBuilder.cs,True,Direct Analysis
+SetMusicVideoProperties,558,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,True,Direct Analysis
+AttachStudios,713,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,True,Direct Analysis
+AttachGenreItems,725,jellyfin-10.11.6/Emby.Server.Implementations/Dto/DtoService.cs,True,Direct Analysis
+GetOption,210,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/BaseEncodingJobOptions.cs,True,Direct Analysis
+AddSession,145,jellyfin-10.11.6/Emby.Server.Implementations/SyncPlay/Group.cs,True,Direct Analysis
+GetItemsWithImageType,72,jellyfin-10.11.6/Emby.Server.Implementations/Library/SplashscreenPostScanTask.cs,True,Direct Analysis
+SerializeToWriter,31,jellyfin-10.11.6/Emby.Server.Implementations/Serialization/MyXmlSerializer.cs,True,Direct Analysis
+GetOptimalVideoStream,230,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamBuilder.cs,True,Direct Analysis
+GetOption,865,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Direct Analysis
+GetAudioImagePath,110,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioImageProvider.cs,True,Direct Analysis
+GetMediaInfo,314,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/MediaInfoResolver.cs,True,Direct Analysis
+GetYearValue,71,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Year.cs,True,Cascading + LLM (No Internal Calls)
+GetCachedChildren,651,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+GetActors,299,jellyfin-10.11.6/Jellyfin.Api/Controllers/MoviesController.cs,True,Cascading + LLM (No Internal Calls)
+RefreshItemOnDemandIfNeeded,633,jellyfin-10.11.6/Jellyfin.Api/Controllers/UserLibraryController.cs,True,Cascading + LLM (No Internal Calls)
+GetChannelInfo,109,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/M3uParser.cs,True,Cascading Analysis
+ShouldCancelTimerForSeriesTimer,644,jellyfin-10.11.6/src/Jellyfin.LiveTv/DefaultLiveTvService.cs,True,Cascading Analysis
+BuildSquareCollage,73,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/StripCollageBuilder.cs,True,Cascading Analysis
+ApplyQueryFilter,461,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/BaseItemRepository.cs,True,Cascading Analysis
+GetOption,198,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/BaseEncodingJobOptions.cs,True,Cascading Analysis
+FetchFromSharesNode,514,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Cascading Analysis
+GetOption,848,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Cascading Analysis
+GetTargetVideoBitDepth,1287,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Cascading Analysis
+GetTargetAudioBitDepth,1304,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Cascading Analysis
+GetTargetVideoLevel,1321,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Cascading Analysis
+GetTargetRefFrames,1338,jellyfin-10.11.6/MediaBrowser.Model/Dlna/StreamInfo.cs,True,Cascading Analysis
+GetProfileUrl,539,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/Tmdb/TmdbClientManager.cs,True,Cascading + LLM (With Internal Calls)

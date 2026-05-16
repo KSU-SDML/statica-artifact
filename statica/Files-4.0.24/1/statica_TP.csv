@@ -1,0 +1,158 @@
+method_name,line_number,file_name,to_static,reasoning
+NavigationTest,38,Files-4.0.24/tests/Files.InteractionTests/Tests/FolderTests.cs,True,Direct Analysis
+CreateFolderTest,51,Files-4.0.24/tests/Files.InteractionTests/Tests/FolderTests.cs,True,Direct Analysis
+RenameFolderTest,86,Files-4.0.24/tests/Files.InteractionTests/Tests/FolderTests.cs,True,Direct Analysis
+CopyPasteFolderTest,106,Files-4.0.24/tests/Files.InteractionTests/Tests/FolderTests.cs,True,Direct Analysis
+DeleteFolderTest,124,Files-4.0.24/tests/Files.InteractionTests/Tests/FolderTests.cs,True,Direct Analysis
+IsTagQuery,187,Files-4.0.24/src/Files.App/Utils/Storage/Search/FolderSearch.cs,True,Direct Analysis
+MatchesTagExpression,233,Files-4.0.24/src/Files.App/Utils/Storage/Search/FolderSearch.cs,True,Direct Analysis
+GetSettingsService,100,Files-4.0.24/src/Files.App/Services/Settings/UserSettingsService.cs,True,Direct Analysis
+DetectTrackSelectionSetting,69,Files-4.0.24/src/Files.App/Services/PreviewPopupProviders/SeerProProvider.cs,True,Direct Analysis
+DoPreviewAsync,24,Files-4.0.24/src/Files.App/Services/PreviewPopupProviders/PowerToysPeekProvider.cs,True,Direct Analysis
+UntagAllFiles,166,Files-4.0.24/src/Files.App/Services/Settings/FileTagsSettingsService.cs,True,Direct Analysis
+GetChangedActionEventArgs,298,Files-4.0.24/src/Files.App/Services/Windows/WindowsRecentItemsService.cs,True,Direct Analysis
+LoadIconForLocationItemAsync,119,Files-4.0.24/src/Files.App/Data/Models/PinnedFoldersManager.cs,True,Direct Analysis
+LoadDefaultIconForLocationItemAsync,141,Files-4.0.24/src/Files.App/Data/Models/PinnedFoldersManager.cs,True,Direct Analysis
+AddFolder,128,Files-4.0.24/src/Files.App/Services/Windows/WindowsJumpListService.cs,True,Direct Analysis
+ResetAll,73,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,True,Direct Analysis
+Import,78,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,True,Direct Analysis
+FindPreferences,138,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,True,Direct Analysis
+Delay,24,Files-4.0.24/src/Files.Shared/Helpers/AsyncManualResetEvent.cs,True,Direct Analysis
+GetPreferences,15,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabaseManager.cs,True,Direct Analysis
+SetPreferences,20,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabaseManager.cs,True,Direct Analysis
+ResetAll,25,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabaseManager.cs,True,Direct Analysis
+Import,30,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabaseManager.cs,True,Direct Analysis
+Export,35,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabaseManager.cs,True,Direct Analysis
+IsCorrectColumn,886,Files-4.0.24/src/Files.App/Views/Layouts/DetailsLayoutPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+SetToolTip,1064,Files-4.0.24/src/Files.App/Views/Layouts/DetailsLayoutPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+ResetLayoutPreferences,283,Files-4.0.24/src/Files.App/ViewModels/Settings/LayoutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+CalculateFileHashAsync,171,Files-4.0.24/src/Files.App/ViewModels/Properties/HashesViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteFormatDriveCommand,201,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/NetworkLocationsWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+IsValidAbsolutePath,226,Files-4.0.24/src/Files.App/ViewModels/Dialogs/CreateShortcutDialogViewModel.cs,True,Cascading + LLM (No Internal Calls)
+OnDocumentationClicked,282,Files-4.0.24/src/Files.App/Utils/Taskbar/SystemTrayIcon.cs,True,Cascading + LLM (No Internal Calls)
+OnRestartClicked,287,Files-4.0.24/src/Files.App/Utils/Taskbar/SystemTrayIcon.cs,True,Cascading + LLM (No Internal Calls)
+CheckIsRecentItemsEnabled,242,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/RecentFilesWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+RetrieveBladeColumnViewBase,357,Files-4.0.24/src/Files.App/Views/Layouts/ColumnsLayoutPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+OnItemTypeChanged,22,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcutItem.cs,True,Cascading + LLM (No Internal Calls)
+OnTextChanged,42,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcutItem.cs,True,Cascading + LLM (No Internal Calls)
+DoConnectToGitHubAsync,131,Files-4.0.24/src/Files.App/ViewModels/Settings/DevToolsViewModel.cs,True,Cascading + LLM (No Internal Calls)
+UpdateLabel,49,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (No Internal Calls)
+UpdateThemedIcon,98,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (No Internal Calls)
+UpdateIconSize,112,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (No Internal Calls)
+OnItemTypeChanged,17,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcut.cs,True,Cascading + LLM (No Internal Calls)
+OnSizeChanged,21,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcut.cs,True,Cascading + LLM (No Internal Calls)
+AdjustRadiusWidth,452,Files-4.0.24/src/Files.App.Controls/Storage/RingShape/RingShape.cs,True,Cascading + LLM (No Internal Calls)
+AdjustRadiusHeight,473,Files-4.0.24/src/Files.App.Controls/Storage/RingShape/RingShape.cs,True,Cascading + LLM (No Internal Calls)
+DoOpenDocumentation,117,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+DoOpenDiscord,122,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+DoOpenGitHubRepo,137,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+DoOpenPrivacyPolicy,142,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+DoOpenCrowdin,147,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+SupportUs,185,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+GetWindowsVersion,195,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+UpdateItemType,17,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateLabel,55,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateSubItems,69,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateContent,75,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateThemedIcon,85,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateKeyboardAcceleratorTextOverride,95,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateGroupName,105,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateCommand,115,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateCommandParameter,129,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateOverflowBehavior,143,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateIconSize,171,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+UpdateIsChecked,185,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (No Internal Calls)
+IsCtrlDown,68,Files-4.0.24/src/Files.App.Controls/GridSplitter/GridSplitter.Events.cs,True,Cascading + LLM (No Internal Calls)
+CopyPathFallback,92,Files-4.0.24/src/Files.App/Actions/FileSystem/CopyItemFromHomeAction.cs,True,Cascading + LLM (No Internal Calls)
+IsNonCopyableLocation,104,Files-4.0.24/src/Files.App/Actions/FileSystem/CopyItemFromHomeAction.cs,True,Cascading + LLM (No Internal Calls)
+ConvertInternal,22,Files-4.0.24/src/Files.App/Converters/GenericEnumConverter.cs,True,Cascading + LLM (No Internal Calls)
+GetItemCount,17,Files-4.0.24/src/Files.App.Controls/Toolbar/Primitives/ToolbarLayout.cs,True,Cascading + LLM (No Internal Calls)
+GetElementAt,22,Files-4.0.24/src/Files.App.Controls/Toolbar/Primitives/ToolbarLayout.cs,True,Cascading + LLM (No Internal Calls)
+ArrangeItem,59,Files-4.0.24/src/Files.App.Controls/Toolbar/Primitives/ToolbarLayout.cs,True,Cascading + LLM (No Internal Calls)
+OnActivatedAsync,160,Files-4.0.24/src/Files.App/App.xaml.cs,True,Cascading + LLM (No Internal Calls)
+HandleDriveItemDragOverAsync,1196,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (No Internal Calls)
+HandleTagItemDragOverAsync,1250,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (No Internal Calls)
+IsNameValid,160,Files-4.0.24/src/Files.App/Views/Settings/TagsPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+GetShieldIcon,1051,Files-4.0.24/src/Files.App/ViewModels/ShellViewModel.cs,True,Cascading + LLM (No Internal Calls)
+CheckCloudDriveSyncStatusAsync,2061,Files-4.0.24/src/Files.App/ViewModels/ShellViewModel.cs,True,Cascading + LLM (No Internal Calls)
+GetExtraProperties,2088,Files-4.0.24/src/Files.App/ViewModels/ShellViewModel.cs,True,Cascading + LLM (No Internal Calls)
+SetContentDialogRoot,80,Files-4.0.24/src/Files.App/Views/MainPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+GetAutomaticDestinations,19,Files-4.0.24/src/Files.App.Storage/Windows/Managers/JumpListManager.cs,True,Cascading + LLM (No Internal Calls)
+GetCustomDestinations,24,Files-4.0.24/src/Files.App.Storage/Windows/Managers/JumpListManager.cs,True,Cascading + LLM (No Internal Calls)
+ShowErrorDialog,35,Files-4.0.24/src/Files.App/Actions/Content/Background/BaseSetAsAction.cs,True,Cascading + LLM (No Internal Calls)
+UpdateLabel,50,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (No Internal Calls)
+UpdateThemedIcon,99,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (No Internal Calls)
+UpdateIconSize,113,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (No Internal Calls)
+DeleteLogFiles,31,Files-4.0.24/src/Files.App.BackgroundTasks/UpdateTask.cs,True,Cascading + LLM (No Internal Calls)
+RefreshJumpListAsync,37,Files-4.0.24/src/Files.App.BackgroundTasks/UpdateTask.cs,True,Cascading + LLM (No Internal Calls)
+CopyPathFallback,93,Files-4.0.24/src/Files.App/Actions/Sidebar/CopyItemFromSidebarAction.cs,True,Cascading + LLM (No Internal Calls)
+IsNonCopyableLocation,105,Files-4.0.24/src/Files.App/Actions/Sidebar/CopyItemFromSidebarAction.cs,True,Cascading + LLM (No Internal Calls)
+UpdateItemTemplate,222,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+SortByItemTypeForOverflowItemList,473,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+CreateToolbarButton,662,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+CreateToolbarToggleButton,678,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+CreateToolbarSeparator,695,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+RemoveItemFromOverflowList,742,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+RemoveItemFromList,753,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (No Internal Calls)
+SetContentDialogRoot,43,Files-4.0.24/src/Files.App/Dialogs/FilesystemOperationDialog.xaml.cs,True,Cascading + LLM (No Internal Calls)
+StartRename,167,Files-4.0.24/src/Files.App/Dialogs/FilesystemOperationDialog.xaml.cs,True,Cascading + LLM (No Internal Calls)
+SetThinAcrylicBackdropProperties,129,Files-4.0.24/src/Files.App/Helpers/UI/AppSystemBackdrop.cs,True,Cascading + LLM (No Internal Calls)
+SetContentDialogRoot,31,Files-4.0.24/src/Files.App/Dialogs/FileTooLargeDialog.xaml.cs,True,Cascading + LLM (No Internal Calls)
+DragOver_SetCaptions,65,Files-4.0.24/src/Files.App/Dialogs/ReorderSidebarItemsDialog.xaml.cs,True,Cascading + LLM (No Internal Calls)
+IsPathUsingDefaultLayout,246,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesManager.cs,True,Cascading + LLM (No Internal Calls)
+SetTags,19,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Direct Analysis
+FindTag,53,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Direct Analysis
+Import,196,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Direct Analysis
+GetAppVersion,190,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+HandleLocationItemDragOverAsync,1110,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (No Internal Calls)
+UpdateTag,96,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Cascading Analysis
+UpdateTag,124,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Cascading Analysis
+GetTags,152,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,True,Cascading Analysis
+GetPreferences,17,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,True,Cascading Analysis
+SetPreferences,22,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,True,Cascading Analysis
+OnItemTypePropertyChanged,49,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcutItem.Properties.cs,True,Cascading + LLM (With Internal Calls)
+OnTextPropertyChanged,59,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcutItem.Properties.cs,True,Cascading + LLM (With Internal Calls)
+LabelChanged,128,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (With Internal Calls)
+ThemedIconChanged,139,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (With Internal Calls)
+IconSizeChanged,150,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarToggleButton/ToolbarToggleButton.cs,True,Cascading + LLM (With Internal Calls)
+OnItemTypePropertyChanged,49,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcut.Properties.cs,True,Cascading + LLM (With Internal Calls)
+OnSizePropertyChanged,54,Files-4.0.24/src/Files.App/UserControls/KeyboardShortcut/KeyboardShortcut.Properties.cs,True,Cascading + LLM (With Internal Calls)
+CopyAppVersion,152,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (With Internal Calls)
+CopyWindowsVersion,163,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (With Internal Calls)
+ItemTypeChanged,198,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+OverflowBehaviorChanged,205,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+LabelChanged,212,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+SubItemsChanged,224,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+ContentChanged,231,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+ThemedIconChanged,238,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+KeyboardAcceleratorTextOverrideChanged,245,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+GroupNameChanged,252,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+CommandChanged,259,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+CommandParameterChanged,266,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+IconSizeChanged,276,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+IsCheckedChanged,286,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarItem/ToolbarItem.cs,True,Cascading + LLM (With Internal Calls)
+HandleItemDragOverAsync,1100,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (With Internal Calls)
+LabelChanged,129,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (With Internal Calls)
+ThemedIconChanged,140,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (With Internal Calls)
+IconSizeChanged,150,Files-4.0.24/src/Files.App.Controls/Toolbar/ToolbarButton/ToolbarButton.cs,True,Cascading + LLM (With Internal Calls)
+RunAsync,18,Files-4.0.24/src/Files.App.BackgroundTasks/UpdateTask.cs,True,Cascading + LLM (With Internal Calls)
+ItemTemplateChanged,340,Files-4.0.24/src/Files.App.Controls/Toolbar/Toolbar.cs,True,Cascading + LLM (With Internal Calls)
+MarshalToSecureString,98,Files-4.0.24/src/Files.App/Utils/Storage/StorageBaseItems/StorageCredential.cs,True,Direct Analysis
+RestoreAllTrashesInternal,101,Files-4.0.24/src/Files.App/Services/Storage/StorageTrashBinService.cs,True,Direct Analysis
+ExecuteEjectDeviceCommand,190,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/DrivesWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteEjectDeviceCommand,188,Files-4.0.24/src/Files.App/ViewModels/UserControls/Widgets/NetworkLocationsWidgetViewModel.cs,True,Cascading + LLM (No Internal Calls)
+GenerateCommandCodes,47,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GenerateICommandManager,68,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GenerateCommandManager,94,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/CommandManagerGenerator.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteShellCommand,49,Files-4.0.24/src/Files.App/Actions/Open/OpenClassicPropertiesAction.cs,True,Cascading + LLM (No Internal Calls)
+OpenLogLocation,101,Files-4.0.24/src/Files.App/ViewModels/Settings/AboutViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ReorderItemsAsync,905,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,True,Cascading + LLM (No Internal Calls)
+ExecuteCancelCommand,383,Files-4.0.24/src/Files.App/ViewModels/Settings/ActionsViewModel.cs,True,Cascading + LLM (No Internal Calls)
+OnPercentChanged,74,Files-4.0.24/src/Files.App.Controls/Storage/StorageRing/StorageRing.Properties.cs,True,Cascading + LLM (No Internal Calls)
+WebView_WebMessageReceived,117,Files-4.0.24/src/Files.App/Views/ReleaseNotesPage.xaml.cs,True,Cascading + LLM (No Internal Calls)
+MenuItemsHost_ElementPrepared,237,Files-4.0.24/src/Files.App.Controls/Sidebar/SidebarView.xaml.cs,True,Cascading + LLM (No Internal Calls)
+AutoSuggestBox_LosingFocus,27,Files-4.0.24/src/Files.App.Controls/Omnibar/Omnibar.Events.cs,True,Cascading + LLM (No Internal Calls)
+AutoSuggestBoxSuggestionsPopup_GettingFocus,152,Files-4.0.24/src/Files.App.Controls/Omnibar/Omnibar.Events.cs,True,Cascading + LLM (No Internal Calls)
+ReadAllKeys,116,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/StringsPropertyGenerator.cs,True,Cascading + LLM (No Internal Calls)
+KeyNameValidator,131,Files-4.0.24/src/Files.Core.SourceGenerator/Generators/StringsPropertyGenerator.cs,True,Cascading + LLM (No Internal Calls)
+GetAllMonitorInfo,222,Files-4.0.24/src/Files.App/Data/Items/WindowEx.cs,True,Cascading + LLM (No Internal Calls)

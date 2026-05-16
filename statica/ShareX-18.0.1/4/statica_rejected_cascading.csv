@@ -1,0 +1,168 @@
+method_name,line_number,file_name,to_static,reasoning
+Parse,45,ShareX-18.0.1/ShareX/UploadInfoParser.cs,False,Cascading Analysis
+Capture,39,ShareX-18.0.1/ShareX/CaptureHelpers/CaptureBase.cs,False,Cascading Analysis
+Capture,44,ShareX-18.0.1/ShareX/CaptureHelpers/CaptureBase.cs,False,Cascading Analysis
+GetAlbums,189,ShareX-18.0.1/ShareX.UploadersLib/ImageUploaders/Imgur.cs,False,Cascading Analysis
+GetAlbumsPage,215,ShareX-18.0.1/ShareX.UploadersLib/ImageUploaders/Imgur.cs,False,Cascading Analysis
+GetAlbumImages,243,ShareX-18.0.1/ShareX.UploadersLib/ImageUploaders/Imgur.cs,False,Cascading Analysis
+WorkThread,55,ShareX-18.0.1/ShareX.HelpersLib/ThreadWorker.cs,False,Cascading Analysis
+OnCompleted,66,ShareX-18.0.1/ShareX.HelpersLib/ThreadWorker.cs,False,Cascading Analysis
+AppendHistoryItem,71,ShareX-18.0.1/ShareX.HistoryLib/HistoryManager.cs,False,Cascading Analysis
+AppendHistoryItems,76,ShareX-18.0.1/ShareX.HistoryLib/HistoryManager.cs,False,Cascading Analysis
+FetchAPIKey,93,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/LobFile.cs,False,Cascading Analysis
+ReadAllLines,67,ShareX-18.0.1/ShareX.HelpersLib/StringLineReader.cs,False,Cascading Analysis
+SaveAsync,102,ShareX-18.0.1/ShareX.HelpersLib/Settings/SettingsBase.cs,False,Cascading Analysis
+GetFiles,171,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Box.cs,False,Cascading Analysis
+GetFiles,176,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Box.cs,False,Cascading Analysis
+CreateSharedLink,195,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Box.cs,False,Cascading Analysis
+AddKeyDown,70,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddKeyUp,75,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddKeyPress,80,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddKeyPressModifiers,86,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseDown,154,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseUp,159,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseClick,164,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseClick,170,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseClick,176,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+AddMouseMove,193,ShareX-18.0.1/ShareX.HelpersLib/Input/InputManager.cs,False,Cascading Analysis
+IsMousePressed,64,ShareX-18.0.1/ShareX.ScreenCaptureLib/Helpers/InputManager.cs,False,Cascading Analysis
+IsMouseReleased,69,ShareX-18.0.1/ShareX.ScreenCaptureLib/Helpers/InputManager.cs,False,Cascading Analysis
+AutoHandleFormState,66,ShareX-18.0.1/ShareX.HelpersLib/WindowState.cs,False,Cascading Analysis
+BringToFront,192,ShareX-18.0.1/ShareX.HelpersLib/Native/WindowInfo.cs,False,Cascading Analysis
+SetWindowPos,208,ShareX-18.0.1/ShareX.HelpersLib/Native/WindowInfo.cs,False,Cascading Analysis
+SetWindowPos,213,ShareX-18.0.1/ShareX.HelpersLib/Native/WindowInfo.cs,False,Cascading Analysis
+SetWindowPos,218,ShareX-18.0.1/ShareX.HelpersLib/Native/WindowInfo.cs,False,Cascading Analysis
+GetParameter,158,ShareX-18.0.1/ShareX.HelpersLib/CLI/CLIManager.cs,False,Cascading Analysis
+Draw,130,ShareX-18.0.1/ShareX.HelpersLib/Colors/GradientInfo.cs,False,Cascading Analysis
+Draw,147,ShareX-18.0.1/ShareX.HelpersLib/Colors/GradientInfo.cs,False,Cascading Analysis
+CreateGradientPreview,158,ShareX-18.0.1/ShareX.HelpersLib/Colors/GradientInfo.cs,False,Cascading Analysis
+DrawCursor,124,ShareX-18.0.1/ShareX.HelpersLib/CursorData.cs,False,Cascading Analysis
+DrawCursor,140,ShareX-18.0.1/ShareX.HelpersLib/CursorData.cs,False,Cascading Analysis
+HandleKeyInput,150,ShareX-18.0.1/ShareX.HistoryLib/HistoryItemManager.cs,False,Cascading Analysis
+Extract,47,ShareX-18.0.1/ShareX.HelpersLib/SevenZipManager.cs,False,Cascading Analysis
+Extract,53,ShareX-18.0.1/ShareX.HelpersLib/SevenZipManager.cs,False,Cascading Analysis
+Compress,60,ShareX-18.0.1/ShareX.HelpersLib/SevenZipManager.cs,False,Cascading Analysis
+AuthLogin,322,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,False,Cascading Analysis
+AuthCheckSession,354,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,False,Cascading Analysis
+AuthLogout,386,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,False,Cascading Analysis
+Upload,502,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,False,Cascading Analysis
+UploadFile,32,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/FileUploader.cs,False,Cascading Analysis
+LoadGifPicture,55,ShareX-18.0.1/ShareX.HelpersLib/GIF/GifClass.cs,False,Cascading Analysis
+OpenLink,52,ShareX-18.0.1/ShareX/Tools/OCR/ServiceLink.cs,False,Cascading Analysis
+RunAsync,142,ShareX-18.0.1/ShareX.HelpersLib/ExternalProgram.cs,False,Cascading Analysis
+CaptureFullscreen,53,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,False,Cascading Analysis
+CaptureActiveWindow,98,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,False,Cascading Analysis
+CaptureActiveMonitor,105,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,False,Cascading Analysis
+CaptureActiveWindowTransparent,159,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot_Transparent.cs,False,Cascading Analysis
+PushNote,154,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Pushbullet.cs,False,Cascading Analysis
+PushLink,159,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Pushbullet.cs,False,Cascading Analysis
+GetPreviewURL,307,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/AmazonS3.cs,False,Cascading Analysis
+GetVisibleWindowsList,58,ShareX-18.0.1/ShareX.ScreenCaptureLib/Helpers/WindowsList.cs,False,Cascading Analysis
+IsValidWindow,65,ShareX-18.0.1/ShareX.ScreenCaptureLib/Helpers/WindowsList.cs,False,Cascading Analysis
+UploadImage,33,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/ImageUploader.cs,False,Cascading Analysis
+UploadTextFile,43,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/TextUploader.cs,False,Cascading Analysis
+SendRequest,99,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+SendRequest,104,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+SendRequest,113,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+SendRequestURLEncoded,126,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+SendRequestMultiPart,152,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+ProcessWebResponseText,512,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+GetAuthorizationURL,528,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+GetAccessToken,543,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+GetAccessTokenEx,548,ShareX-18.0.1/ShareX.UploadersLib/BaseUploaders/Uploader.cs,False,Cascading Analysis
+GetFileName,129,ShareX-18.0.1/ShareX.UploadersLib/CustomUploader/CustomUploaderItem.cs,False,Cascading Analysis
+GenerateStringToSign,139,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/AzureStorage.cs,False,Cascading Analysis
+GetPreviewURL,210,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/AzureStorage.cs,False,Cascading Analysis
+B2ApiAuthorize,263,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/BackblazeB2.cs,False,Cascading Analysis
+B2ApiGetBucketId,289,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/BackblazeB2.cs,False,Cascading Analysis
+B2ApiGetUploadUrl,350,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/BackblazeB2.cs,False,Cascading Analysis
+B2ApiUploadFile,390,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/BackblazeB2.cs,False,Cascading Analysis
+GetPublicURL,234,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Copy.cs,False,Cascading Analysis
+IsExists,269,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Dropbox.cs,False,Cascading Analysis
+Send,112,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Email.cs,False,Cascading Analysis
+GetPreviewURL,172,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/GoogleCloudStorage.cs,False,Cascading Analysis
+EnsureSuccess,160,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/MediaFire.cs,False,Cascading Analysis
+ShowMenu,38,ShareX-18.0.1/ShareX/QuickTaskMenu.cs,False,Cascading Analysis
+CreateShareableLink,273,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/OneDrive.cs,False,Cascading Analysis
+GetPathInfo,310,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/OneDrive.cs,False,Cascading Analysis
+Login,78,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Puush.cs,False,Cascading Analysis
+SetBackColor,56,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,False,Cascading + LLM (With Internal Calls)
+DrawBlackWhite,73,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,False,Cascading + LLM (With Internal Calls)
+DrawRedGreenBlue,79,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,False,Cascading + LLM (With Internal Calls)
+btnGradientColor1_ColorChanged,250,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,False,Cascading + LLM (With Internal Calls)
+btnGradientColor2_ColorChanged,255,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,False,Cascading + LLM (With Internal Calls)
+GetInvalidConfigResult,1044,ShareX-18.0.1/ShareX/WorkerTask.cs,False,Cascading + LLM (With Internal Calls)
+ThreadCompleted,1132,ShareX-18.0.1/ShareX/WorkerTask.cs,False,Cascading + LLM (With Internal Calls)
+AddEnumItems,475,ShareX-18.0.1/ShareX/Forms/MainForm.cs,False,Cascading + LLM (With Internal Calls)
+RemoveTasks,1055,ShareX-18.0.1/ShareX/Forms/MainForm.cs,False,Cascading + LLM (With Internal Calls)
+HandleHotkeysToggle,161,ShareX-18.0.1/ShareX/Forms/HotkeySettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+AddMultiEnumItemsContextMenu,52,ShareX-18.0.1/ShareX/Forms/QuickTaskInfoEditForm.cs,False,Cascading + LLM (With Internal Calls)
+AddEnumItemsContextMenu,80,ShareX-18.0.1/ShareX/Controls/HotkeySelectionControl.cs,False,Cascading + LLM (With Internal Calls)
+ScanScreen,162,ShareX-18.0.1/ShareX/Forms/QRCodeForm.cs,False,Cascading + LLM (With Internal Calls)
+ScanRegion,185,ShareX-18.0.1/ShareX/Forms/QRCodeForm.cs,False,Cascading + LLM (With Internal Calls)
+ScanFromImageFile,210,ShareX-18.0.1/ShareX/Forms/QRCodeForm.cs,False,Cascading + LLM (With Internal Calls)
+LoadSettings,151,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigForm.cs,False,Cascading + LLM (With Internal Calls)
+oauthFlickr_OpenButtonClicked,868,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigForm.cs,False,Cascading + LLM (With Internal Calls)
+oauthFlickr_CompleteButtonClicked,873,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigForm.cs,False,Cascading + LLM (With Internal Calls)
+eiFTP_ExportRequested,1428,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigForm.cs,False,Cascading + LLM (With Internal Calls)
+eiFTP_ImportRequested,1433,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigForm.cs,False,Cascading + LLM (With Internal Calls)
+FTPLoadSelectedAccount,497,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,False,Cascading + LLM (With Internal Calls)
+FTPClearFields,554,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,False,Cascading + LLM (With Internal Calls)
+CustomUploaderNew,137,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+CustomUploaderLoadSelected,152,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+CustomUploaderClearFields,274,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+eiCustomUploaders_ImportRequested,884,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+UpdateCursor,36,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/CursorDrawingShape.cs,False,Cascading + LLM (With Internal Calls)
+TimerCallback,76,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/GitHubUpdateManager.cs,False,Cascading + LLM (With Internal Calls)
+ImportImageEffectFile,126,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,False,Cascading + LLM (With Internal Calls)
+AddAllEffectsToContextMenu,148,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,False,Cascading + LLM (With Internal Calls)
+GetSelectedPreset,241,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,False,Cascading + LLM (With Internal Calls)
+AddPreset,260,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,False,Cascading + LLM (With Internal Calls)
+lvEffects_ItemMoved,676,ShareX-18.0.1/ShareX.ImageEffectsLib/Forms/ImageEffectsForm.cs,False,Cascading + LLM (With Internal Calls)
+FillTreeView,131,ShareX-18.0.1/ShareX.HelpersLib/Controls/TabToTreeView.cs,False,Cascading + LLM (With Internal Calls)
+AddFrame,69,ShareX-18.0.1/ShareX.HelpersLib/GIF/AnimatedGifCreator.cs,False,Cascading + LLM (With Internal Calls)
+GetSelectedGradientStop,534,ShareX-18.0.1/ShareX.HelpersLib/Forms/GradientPickerForm.cs,False,Cascading + LLM (With Internal Calls)
+SelectGradientStop,565,ShareX-18.0.1/ShareX.HelpersLib/Forms/GradientPickerForm.cs,False,Cascading + LLM (With Internal Calls)
+cbtnCurrentColor_ColorChanged,628,ShareX-18.0.1/ShareX.HelpersLib/Forms/GradientPickerForm.cs,False,Cascading + LLM (With Internal Calls)
+logger_MessageAdded,79,ShareX-18.0.1/ShareX.HelpersLib/Forms/DebugForm.cs,False,Cascading + LLM (With Internal Calls)
+FileDownloader_FileSizeReceived,241,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/DownloaderForm.cs,False,Cascading + LLM (With Internal Calls)
+OnImportRequested,174,ShareX-18.0.1/ShareX.HelpersLib/Controls/ExportImportControl.cs,False,Cascading + LLM (With Internal Calls)
+ImportJson,195,ShareX-18.0.1/ShareX.HelpersLib/Controls/ExportImportControl.cs,False,Cascading + LLM (With Internal Calls)
+ImportFile,210,ShareX-18.0.1/ShareX.HelpersLib/Controls/ExportImportControl.cs,False,Cascading + LLM (With Internal Calls)
+AddEnumItemsContextMenu,557,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+AddMultiEnumItemsContextMenu,628,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+AddEnumItems,671,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,False,Cascading + LLM (With Internal Calls)
+IsExist,66,ShareX-18.0.1/ShareX/WatchFolderManager.cs,False,Cascading + LLM (With Internal Calls)
+UpdateWatchFolderState,122,ShareX-18.0.1/ShareX/WatchFolderManager.cs,False,Cascading + LLM (With Internal Calls)
+MigrateFromJSON,212,ShareX-18.0.1/ShareX.HistoryLib/HistoryManagerSQLite.cs,False,Cascading + LLM (With Internal Calls)
+ConcatenateVideos,277,ShareX-18.0.1/ShareX.MediaLib/FFmpegCLIManager.cs,False,Cascading + LLM (With Internal Calls)
+btnShadowColor_ColorChanged,328,ShareX-18.0.1/ShareX.MediaLib/Forms/ImageBeautifierForm.cs,False,Cascading + LLM (With Internal Calls)
+AddShape,1133,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,False,Cascading + LLM (With Internal Calls)
+RenderOutputImage,1383,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,False,Cascading + LLM (With Internal Calls)
+DeleteIntersectShape,1495,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,False,Cascading + LLM (With Internal Calls)
+IsShapeIntersect,1557,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,False,Cascading + LLM (With Internal Calls)
+MoveAll,1678,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,False,Cascading + LLM (With Internal Calls)
+CreateMultiDirectory,197,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SFTP.cs,False,Cascading + LLM (With Internal Calls)
+DrawInfoText,1113,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/RegionCaptureForm.cs,False,Cascading + LLM (With Internal Calls)
+CreateCanvasMemento,72,ShareX-18.0.1/ShareX.ScreenCaptureLib/Helpers/ImageEditorHistory.cs,False,Cascading + LLM (With Internal Calls)
+IsScrollReachedBottom,218,ShareX-18.0.1/ShareX.ScreenCaptureLib/ScrollingCaptureManager.cs,False,Cascading + LLM (With Internal Calls)
+CombineImagesAsync,242,ShareX-18.0.1/ShareX.ScreenCaptureLib/ScrollingCaptureManager.cs,False,Cascading + LLM (With Internal Calls)
+UpdateNodeShape,142,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/BaseShape.cs,False,Cascading + LLM (With Internal Calls)
+Move,183,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/BaseShape.cs,False,Cascading + LLM (With Internal Calls)
+MoveAbsolute,199,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/BaseShape.cs,False,Cascading + LLM (With Internal Calls)
+UpdateSummaryAsync,79,ShareX-18.0.1/ShareX.UploadersLib/Forms/JiraUpload.cs,False,Cascading + LLM (With Internal Calls)
+DrawText,81,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/TextDrawingShape.cs,False,Cascading + LLM (With Internal Calls)
+UpdateColor,208,ShareX-18.0.1/ShareX.HelpersLib/Forms/ColorPickerForm.cs,False,Cascading + LLM (With Internal Calls)
+FillLastColumn,130,ShareX-18.0.1/ShareX.HelpersLib/Controls/MyListView.cs,False,Cascading + LLM (With Internal Calls)
+UploadData,229,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+UploadData,265,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+UploadFile,273,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+UploadImage,281,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+UploadText,290,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+UploadFiles,298,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+DownloadFile,335,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+DownloadFiles,343,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+CreateMultiDirectory,403,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+DeleteFiles,434,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/FTP.cs,False,Cascading + LLM (With Internal Calls)
+TryLogin,85,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Mega.cs,False,Cascading + LLM (With Internal Calls)
+EiTheme_ImportRequested,554,ShareX-18.0.1/ShareX/Forms/ApplicationSettingsForm.cs,False,Cascading + LLM (With Internal Calls)

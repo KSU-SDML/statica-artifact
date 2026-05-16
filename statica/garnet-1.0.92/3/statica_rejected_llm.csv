@@ -1,0 +1,21 @@
+method_name,line_number,file_name,to_static,reasoning
+OnCompleted,154,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnCompleted is an implementation of the IObserver interface.
+OnError,157,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnError is an implementation of the IObserver interface.
+AcquireLockable,45,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method AcquireLockable is an implementation of the IClientSession interface.
+LocksAcquired,52,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method LocksAcquired is an implementation of the IClientSession interface.
+ReleaseLockable,59,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method ReleaseLockable is an implementation of the IClientSession interface.
+CheckIsAcquiredLockable,69,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CheckIsAcquiredLockable is an implementation of the IClientSession interface.
+CheckIsNotAcquiredLockable,76,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CheckIsNotAcquiredLockable is an implementation of the IClientSession interface.
+ResetModified,168,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method ResetModified is an implementation of the IClientSession interface.
+CompletePending,231,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CompletePending is an implementation of the IClientSession interface.
+IsModified,333,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method IsModified is an implementation of the IClientSession interface.
+PopulatePage,1000,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/GenericAllocatorImpl.cs,False,The method PopulatePage is an override of a method in the AllocatorBase class.
+Scan,170,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectBase.cs,False,The method Scan is an implementation of the IGarnetObject interface.
+BeginScope,18,garnet-1.0.92/libs/host/MemoryLogger.cs,False,The method BeginScope is an implementation of the ILogger interface.
+IsEnabled,23,garnet-1.0.92/libs/host/MemoryLogger.cs,False,The method IsEnabled is an implementation of the ILogger interface.
+GetDevice,54,garnet-1.0.92/libs/cluster/Server/Replication/GarnetClusterCheckpointManager.cs,False,The method GetDevice is an implementation of the ICheckpointManager interface.
+OnCompleted,44,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnCompleted is an implementation of the IObserver interface.
+OnError,46,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnError is an implementation of the IObserver interface.
+Reset,168,garnet-1.0.92/metrics/HdrHistogram/Iteration/AbstractHistogramEnumerator.cs,False,The method Reset is an implementation of the IEnumerator interface.
+DisposeResources,178,garnet-1.0.92/libs/common/Networking/TcpNetworkHandlerBase.cs,False,The method DisposeResources is an override of a method in the NetworkHandler class.
+GetAndInitializeValue,80,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Allocator/SpanByteAllocatorImpl.cs,False,The method GetAndInitializeValue is an override of a method in the AllocatorBase class.

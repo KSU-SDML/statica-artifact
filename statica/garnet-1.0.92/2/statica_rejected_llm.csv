@@ -1,0 +1,20 @@
+method_name,line_number,file_name,to_static,reasoning
+OnCompleted,154,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnCompleted is a member of the IObserver interface which the type LogSizeTracker implements.
+OnError,157,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnError is a member of the IObserver interface which the type LogSizeTracker implements.
+AcquireLockable,45,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method AcquireLockable is a member of the IClientSession interface which the type ClientSession implements.
+LocksAcquired,52,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method LocksAcquired is a member of the IClientSession interface which the type ClientSession implements.
+ReleaseLockable,59,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method ReleaseLockable is a member of the IClientSession interface which the type ClientSession implements.
+CheckIsAcquiredLockable,69,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CheckIsAcquiredLockable is a member of the IClientSession interface which the type ClientSession implements.
+CheckIsNotAcquiredLockable,76,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CheckIsNotAcquiredLockable is a member of the IClientSession interface which the type ClientSession implements.
+ResetModified,168,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method ResetModified is a member of the IClientSession interface which the type ClientSession implements.
+CompletePending,231,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method CompletePending is a member of the IClientSession interface which the type ClientSession implements.
+IsModified,333,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/ClientSession/ClientSession.cs,False,The method IsModified is a member of the IClientSession interface which the type ClientSession implements.
+Scan,170,garnet-1.0.92/libs/server/Objects/Types/GarnetObjectBase.cs,False,The method Scan is a member of the IGarnetObject interface which the type GarnetObjectBase implements.
+TryReadAsync,469,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,The method TryReadAsync is a member of the IDevice interface which the type AzureStorageDevice implements.
+TryWriteAsync,652,garnet-1.0.92/libs/storage/Tsavorite/cs/src/devices/AzureStorageDevice/AzureStorageDevice.cs,False,The method TryWriteAsync is a member of the IDevice interface which the type AzureStorageDevice implements.
+BeginScope,18,garnet-1.0.92/libs/host/MemoryLogger.cs,False,The method BeginScope is a member of the ILogger interface which the type MemoryLogger implements.
+IsEnabled,23,garnet-1.0.92/libs/host/MemoryLogger.cs,False,The method IsEnabled is a member of the ILogger interface which the type MemoryLogger implements.
+GetDevice,54,garnet-1.0.92/libs/cluster/Server/Replication/GarnetClusterCheckpointManager.cs,False,The method GetDevice is a member of the ICheckpointManager interface which the type GarnetClusterCheckpointManager implements.
+OnCompleted,44,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnCompleted is a member of the IObserver interface which the type LogOperationObserver implements.
+OnError,46,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Common/LogSizeTracker.cs,False,The method OnError is a member of the IObserver interface which the type LogOperationObserver implements.
+Reset,168,garnet-1.0.92/metrics/HdrHistogram/Iteration/AbstractHistogramEnumerator.cs,False,The method Reset is a member of the IEnumerator interface which the type AbstractHistogramEnumerator implements.

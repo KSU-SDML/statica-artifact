@@ -1,0 +1,16 @@
+method_name,line_number,file_name,to_static,reasoning
+OnDoWork,61,ShareX-18.0.1/ShareX.HelpersLib/ThreadWorker.cs,True,Direct Analysis
+GetHistoryItemsAsync,66,ShareX-18.0.1/ShareX.HistoryLib/HistoryManager.cs,True,Direct Analysis
+DrawGradient,85,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,True,Cascading + LLM (No Internal Calls)
+RegisterHotkey,47,ShareX-18.0.1/ShareX.HelpersLib/Input/HotkeyForm.cs,True,Cascading + LLM (No Internal Calls)
+UnregisterHotkey,83,ShareX-18.0.1/ShareX.HelpersLib/Input/HotkeyForm.cs,True,Cascading + LLM (No Internal Calls)
+StartEncodingAsync,232,ShareX-18.0.1/ShareX.MediaLib/Forms/VideoConverterForm.cs,True,Cascading + LLM (No Internal Calls)
+RenderAsync,149,ShareX-18.0.1/ShareX.MediaLib/ImageBeautifier.cs,True,Cascading + LLM (No Internal Calls)
+AddObject,126,ShareX-18.0.1/ShareX.HelpersLib/Controls/ObjectListView.cs,True,Cascading + LLM (No Internal Calls)
+ValidateIssueId,74,ShareX-18.0.1/ShareX.UploadersLib/Forms/JiraUpload.cs,True,Cascading + LLM (No Internal Calls)
+UnselectAll,172,ShareX-18.0.1/ShareX.HelpersLib/Controls/MyListView.cs,True,Cascading + LLM (No Internal Calls)
+EnsureSelectedVisible,180,ShareX-18.0.1/ShareX.HelpersLib/Controls/MyListView.cs,True,Cascading + LLM (No Internal Calls)
+DrawInsertionLine,359,ShareX-18.0.1/ShareX.HelpersLib/Controls/MyListView.cs,True,Cascading + LLM (No Internal Calls)
+DrawBackground,202,ShareX-18.0.1/ShareX.HelpersLib/Controls/BlackStyle/BlackStyleProgressBar.cs,True,Cascading + LLM (No Internal Calls)
+DrawText,244,ShareX-18.0.1/ShareX.HelpersLib/Controls/BlackStyle/BlackStyleProgressBar.cs,True,Cascading + LLM (No Internal Calls)
+SelectSingle,151,ShareX-18.0.1/ShareX.HelpersLib/Controls/MyListView.cs,True,Cascading + LLM (With Internal Calls)

@@ -1,0 +1,16 @@
+Method,Line,FilePath,Code
+GetTextBlocksFromVisualTree,212,Files-4.0.24/src/Files.App.Controls/BladeView/BladeItem.cs,CA1822
+ResetHotKeys,113,Files-4.0.24/src/Files.App/Data/Commands/NoneCommand.cs,CA1822
+IterateKeys,111,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,CA1822
+EnsureWindowIsInitialized,224,Files-4.0.24/src/Files.App/MainWindow.xaml.cs,CA1822
+DoPreviewAsync,31,Files-4.0.24/src/Files.App/Services/PreviewPopupProviders/QuickLookProvider.cs,CA1822
+IterateKeys,230,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,CA1822
+LoadFlyoutItemIconAsync,690,Files-4.0.24/src/Files.App/ViewModels/UserControls/NavigationToolbarViewModel.cs,CA1822
+BuildSection,589,Files-4.0.24/src/Files.App/ViewModels/UserControls/SidebarViewModel.cs,CA1822
+MeasureContentWidth,159,Files-4.0.24/src/Files.App.Controls/BladeView/BladeItem.cs,CA1822
+CreateLocationItemFromPathAsync,72,Files-4.0.24/src/Files.App/Data/Models/PinnedFoldersManager.cs,CA1822
+Export,104,Files-4.0.24/src/Files.App/Helpers/Layout/LayoutPreferencesDatabase.cs,CA1822
+ShowSplashScreen,46,Files-4.0.24/src/Files.App/MainWindow.xaml.cs,CA1822
+GetAll,157,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,CA1822
+GetAllUnderPath,176,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,CA1822
+Export,220,Files-4.0.24/src/Files.App/Utils/FileTags/FileTagsDatabase.cs,CA1822

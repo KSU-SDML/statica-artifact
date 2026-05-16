@@ -1,0 +1,184 @@
+method_name,line_number,file_name,to_static,reasoning
+GenerateTestPackage,296,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/Plugins/PluginManagerTests.cs,True,Direct Analysis
+GetTestSerializerOptions,312,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/Plugins/PluginManagerTests.cs,True,Direct Analysis
+Setup,255,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/Localization/LocalizationManagerTests.cs,True,Direct Analysis
+TestResolveChildren,53,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/Library/AudioResolverTests.cs,True,Direct Analysis
+ValidateImages_Test,84,jellyfin-10.11.6/tests/Jellyfin.Providers.Tests/Manager/ItemImageProviderTests.cs,True,Direct Analysis
+TestStackInfo,397,jellyfin-10.11.6/tests/Jellyfin.Naming.Tests/Video/StackTests.cs,True,Direct Analysis
+GetDayPattern,360,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvDtoService.cs,True,Direct Analysis
+GetInternalTimerId,410,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvDtoService.cs,True,Direct Analysis
+GetInternalSeriesTimerId,417,jellyfin-10.11.6/src/Jellyfin.LiveTv/LiveTvDtoService.cs,True,Direct Analysis
+MakeParent,36,jellyfin-10.11.6/tests/Jellyfin.Server.Implementations.Tests/Library/CoreResolutionIgnoreRuleTest.cs,True,Direct Analysis
+GetStreamBuilder,573,jellyfin-10.11.6/tests/Jellyfin.Model.Tests/Dlna/StreamBuilderTests.cs,True,Direct Analysis
+AddCollectionItems,782,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Direct Analysis
+GetOutputTrailerUrl,813,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Direct Analysis
+AddUserData,838,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Direct Analysis
+GetImagePathToSave,957,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Direct Analysis
+AddCustomTags,967,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Direct Analysis
+AddTracks,72,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/AlbumNfoSaver.cs,True,Direct Analysis
+FetchFromRatingNode,944,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/BaseNfoParser.cs,True,Direct Analysis
+SaveIsVirtualItem,105,jellyfin-10.11.6/MediaBrowser.Providers/TV/SeasonMetadataService.cs,True,Direct Analysis
+SetProviderId,43,jellyfin-10.11.6/MediaBrowser.Providers/Music/AudioMetadataService.cs,True,Direct Analysis
+IsEligibleForChapterImageExtraction,72,jellyfin-10.11.6/Emby.Server.Implementations/Chapters/ChapterManager.cs,True,Direct Analysis
+GetAverageDurationBetweenChapters,98,jellyfin-10.11.6/Emby.Server.Implementations/Chapters/ChapterManager.cs,True,Direct Analysis
+GetChapter,533,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MigrateLibraryDb.cs,True,Direct Analysis
+GetPerson,572,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MigrateLibraryDb.cs,True,Direct Analysis
+GetMediaStream,593,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MigrateLibraryDb.cs,True,Direct Analysis
+GetMediaAttachment,811,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MigrateLibraryDb.cs,True,Direct Analysis
+ApplyQueryPaging,441,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/BaseItemRepository.cs,True,Direct Analysis
+PrepareItemQuery,470,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/BaseItemRepository.cs,True,Direct Analysis
+NormalizeFormat,270,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+ReadValueArray,492,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+Split,1419,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+SetArtistsFromSongs,128,jellyfin-10.11.6/MediaBrowser.Providers/Music/AlbumMetadataService.cs,True,Direct Analysis
+SetProviderIdFromSongs,158,jellyfin-10.11.6/MediaBrowser.Providers/Music/AlbumMetadataService.cs,True,Direct Analysis
+SetProviderId,183,jellyfin-10.11.6/MediaBrowser.Providers/Music/AlbumMetadataService.cs,True,Direct Analysis
+EnsureWriteAccess,263,jellyfin-10.11.6/Emby.Server.Implementations/AppBase/BaseConfigurationManager.cs,True,Direct Analysis
+IsInvalid,568,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/Movies/MovieResolver.cs,True,Direct Analysis
+TranslateQuery,78,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/MediaStreamRepository.cs,True,Direct Analysis
+GetMarkers,103,jellyfin-10.11.6/Emby.Server.Implementations/AppBase/BaseApplicationPaths.cs,True,Direct Analysis
+SortMediaSources,354,jellyfin-10.11.6/Jellyfin.Api/Helpers/MediaInfoHelper.cs,True,Direct Analysis
+NormalizeMediaSourceContainer,465,jellyfin-10.11.6/Jellyfin.Api/Helpers/MediaInfoHelper.cs,True,Direct Analysis
+FindMainAudioBookFile,139,jellyfin-10.11.6/Emby.Naming/AudioBook/AudioBookListResolver.cs,True,Direct Analysis
+GetComparableName,160,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/StudioImages/StudiosImageProvider.cs,True,Direct Analysis
+GetAvailableImages,175,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/StudioImages/StudiosImageProvider.cs,True,Direct Analysis
+ReadOld,56,jellyfin-10.11.6/Jellyfin.Server/Migrations/PreStartupRoutines/MigrateMusicBrainzTimeout.cs,True,Direct Analysis
+WriteNew,63,jellyfin-10.11.6/Jellyfin.Server/Migrations/PreStartupRoutines/MigrateMusicBrainzTimeout.cs,True,Direct Analysis
+AppendPlaylistVideoRangeField,364,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+AppendPlaylistResolutionField,523,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+AppendPlaylistFramerateField,540,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+AddSubtitles,596,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+AddTrickplay,641,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+GetOutputVideoCodecLevel,674,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+GetOutputVideoCodecProfile,719,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+GetPlaylistAudioCodecs,753,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+GetBitrateVariation,860,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+ReplacePlaylistCodecsField,897,jellyfin-10.11.6/Jellyfin.Api/Helpers/DynamicHlsHelper.cs,True,Direct Analysis
+RequiresSpecialCharacterHack,300,jellyfin-10.11.6/src/Jellyfin.Drawing.Skia/SkiaEncoder.cs,True,Direct Analysis
+GetSpecialItemsLimit,129,jellyfin-10.11.6/MediaBrowser.Controller/Entities/UserViewBuilder.cs,True,Direct Analysis
+ConvertToResult,241,jellyfin-10.11.6/MediaBrowser.Controller/Entities/UserViewBuilder.cs,True,Direct Analysis
+CreateQueueItemsFromArray,505,jellyfin-10.11.6/MediaBrowser.Controller/SyncPlay/Queue/PlayQueueManager.cs,True,Direct Analysis
+AddAlbums,71,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/ArtistNfoSaver.cs,True,Direct Analysis
+ParseLogLine,62,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/JobLogger.cs,True,Direct Analysis
+IsVulkanHwTonemapAvailable,376,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+IsVideoToolboxTonemapAvailable,411,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+IsVideoStreamHevcRext,427,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetUserAgentParam,493,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetRefererParam,508,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+InferAudioCodec,655,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+InferVideoCodec,679,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetVideoProfileScore,707,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetRkmppDeviceArgs,797,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetVideoToolboxDeviceArgs,805,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetCudaDeviceArgs,813,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetVulkanDeviceArgs,827,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetOpenclDeviceArgs,847,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetD3d11vaDeviceArgs,867,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetDrmDeviceArgs,907,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetFilterHwDeviceArgs,943,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetGraphicalSubCanvasSize,950,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetFramerateParam,1878,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+CanStreamCopyAudio,2499,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetMinBitrate,2599,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetAudioBitrateParam,2674,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Direct Analysis
+GetOldTrickplayDirectory,107,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MoveTrickplayFiles.cs,True,Direct Analysis
+GetNewOldTrickplayDirectory,114,jellyfin-10.11.6/Jellyfin.Server/Migrations/Routines/MoveTrickplayFiles.cs,True,Direct Analysis
+GetCurrentImage,361,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ImageSaver.cs,True,Direct Analysis
+GetBackdropSaveFilename,568,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ImageSaver.cs,True,Direct Analysis
+GetSavePathForItemInMixedFolder,706,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ImageSaver.cs,True,Direct Analysis
+GetImageFilesFromFolder,55,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Images/EpisodeLocalImageProvider.cs,True,Direct Analysis
+FetchFromTaglinesNode,570,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+FetchFromGenresNode,607,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+FetchFromTagsNode,639,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+FetchDataFromPersonsNode,680,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+FetchDataFromTrailersNode,713,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+FetchFromStudiosNode,750,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+SplitWithCustomDelimiter,479,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioFileProber.cs,True,Direct Analysis
+TryGetAdditionalFieldWithFallback,573,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioFileProber.cs,True,Direct Analysis
+ContainsImages,354,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Direct Analysis
+UpdateReplaceImages,417,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Direct Analysis
+UpdateMultiImages,532,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Direct Analysis
+EnableImageStub,620,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Direct Analysis
+SaveImageStub,652,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Direct Analysis
+UpdatePremiereDate,509,jellyfin-10.11.6/MediaBrowser.Providers/Manager/MetadataService.cs,True,Direct Analysis
+UpdateGenres,547,jellyfin-10.11.6/MediaBrowser.Providers/Manager/MetadataService.cs,True,Direct Analysis
+UpdateStudios,568,jellyfin-10.11.6/MediaBrowser.Providers/Manager/MetadataService.cs,True,Direct Analysis
+UpdateOfficialRating,589,jellyfin-10.11.6/MediaBrowser.Providers/Manager/MetadataService.cs,True,Direct Analysis
+MergeNewData,945,jellyfin-10.11.6/MediaBrowser.Providers/Manager/MetadataService.cs,True,Direct Analysis
+MergeMetadata,337,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/MediaInfoResolver.cs,True,Direct Analysis
+GetSupportedImage,458,jellyfin-10.11.6/src/Jellyfin.Drawing/ImageProcessor.cs,True,Cascading + LLM (No Internal Calls)
+GetPlayAccess,1055,jellyfin-10.11.6/MediaBrowser.Controller/Entities/BaseItem.cs,True,Cascading + LLM (No Internal Calls)
+FilterItem,197,jellyfin-10.11.6/Jellyfin.Api/Controllers/YearsController.cs,True,Cascading + LLM (No Internal Calls)
+FilterEvents,99,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Subtitles/SubtitleEncoder.cs,True,Cascading + LLM (No Internal Calls)
+GetItemFromSlugName,179,jellyfin-10.11.6/Jellyfin.Api/Controllers/MusicGenresController.cs,True,Cascading + LLM (No Internal Calls)
+GetDefaultListingProvider,1016,jellyfin-10.11.6/Jellyfin.Api/Controllers/LiveTvController.cs,True,Cascading + LLM (No Internal Calls)
+GetParentWithImage,261,jellyfin-10.11.6/Jellyfin.Api/Controllers/SearchController.cs,True,Cascading + LLM (No Internal Calls)
+SupportsFormat,1975,jellyfin-10.11.6/Jellyfin.Api/Controllers/ImageController.cs,True,Cascading + LLM (No Internal Calls)
+GetParentPath,164,jellyfin-10.11.6/Jellyfin.Api/Controllers/EnvironmentController.cs,True,Cascading + LLM (No Internal Calls)
+GetDefaultDirectoryBrowser,193,jellyfin-10.11.6/Jellyfin.Api/Controllers/EnvironmentController.cs,True,Cascading + LLM (No Internal Calls)
+GetConfiguration,225,jellyfin-10.11.6/MediaBrowser.Controller/LiveTv/LiveTvProgram.cs,True,Cascading + LLM (No Internal Calls)
+ApplyPaging,378,jellyfin-10.11.6/Jellyfin.Api/Controllers/TvShowsController.cs,True,Cascading + LLM (No Internal Calls)
+GetMediaStreamsForItem,142,jellyfin-10.11.6/Emby.Server.Implementations/Library/MediaSourceManager.cs,True,Cascading + LLM (No Internal Calls)
+GetTrigger,612,jellyfin-10.11.6/Emby.Server.Implementations/ScheduledTasks/ScheduledTaskWorker.cs,True,Cascading + LLM (No Internal Calls)
+SendForceKeepAlive,261,jellyfin-10.11.6/Emby.Server.Implementations/Session/SessionWebSocketListener.cs,True,Cascading + LLM (No Internal Calls)
+Validate,112,jellyfin-10.11.6/tests/Jellyfin.Api.Tests/Controllers/UserControllerTests.cs,True,Cascading + LLM (No Internal Calls)
+GetSegmentPath,1927,jellyfin-10.11.6/Jellyfin.Api/Controllers/DynamicHlsController.cs,True,Cascading + LLM (No Internal Calls)
+CompareSpecials,120,jellyfin-10.11.6/Emby.Server.Implementations/Sorting/AiredEpisodeOrderComparer.cs,True,Cascading + LLM (No Internal Calls)
+GetItemFromSlugName,184,jellyfin-10.11.6/Jellyfin.Api/Controllers/GenresController.cs,True,Cascading + LLM (No Internal Calls)
+RefreshAllMetadataForContainer,566,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+RunTasks,622,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+QueryWithPostFiltering2,750,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+RequiresPostFiltering2,796,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+AddChildrenFromCollection,1395,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (No Internal Calls)
+GetDefaultMetadataOptions,118,jellyfin-10.11.6/Jellyfin.Api/Controllers/ConfigurationController.cs,True,Cascading + LLM (No Internal Calls)
+GetSeriesStatus,456,jellyfin-10.11.6/Jellyfin.Api/Controllers/ItemUpdateController.cs,True,Cascading + LLM (No Internal Calls)
+NormalizeDateTime,466,jellyfin-10.11.6/Jellyfin.Api/Controllers/ItemUpdateController.cs,True,Cascading + LLM (No Internal Calls)
+GetLibraryFolderIds,194,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Movies/BoxSet.cs,True,Cascading + LLM (No Internal Calls)
+GetPhysicalParents,356,jellyfin-10.11.6/MediaBrowser.Controller/Entities/CollectionFolder.cs,True,Cascading + LLM (No Internal Calls)
+GetUtcTime,21,jellyfin-10.11.6/Jellyfin.Api/Controllers/TimeSyncController.cs,True,Cascading + LLM (No Internal Calls)
+ParseSetXml,117,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/MovieNfoParser.cs,True,Direct Analysis
+ApplyGroupingFilter,378,jellyfin-10.11.6/Jellyfin.Server.Implementations/Item/BaseItemRepository.cs,True,Direct Analysis
+GetUrl,99,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/StudioImages/StudiosImageProvider.cs,True,Direct Analysis
+AddVideoStream,102,jellyfin-10.11.6/MediaBrowser.MediaEncoding/BdInfo/BdInfoExaminer.cs,True,Direct Analysis
+AddAudioStream,132,jellyfin-10.11.6/MediaBrowser.MediaEncoding/BdInfo/BdInfoExaminer.cs,True,Direct Analysis
+AddSubtitleStream,161,jellyfin-10.11.6/MediaBrowser.MediaEncoding/BdInfo/BdInfoExaminer.cs,True,Direct Analysis
+BuildVideoItemSimpleTest,371,jellyfin-10.11.6/tests/Jellyfin.Model.Tests/Dlna/StreamBuilderTests.cs,True,Cascading Analysis
+AddImages,819,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Cascading Analysis
+AddActors,905,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Savers/BaseNfoSaver.cs,True,Cascading Analysis
+FetchFromRatingsNode,897,jellyfin-10.11.6/MediaBrowser.XbmcMetadata/Parsers/BaseNfoParser.cs,True,Cascading Analysis
+ReadFromDictNode,428,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Cascading Analysis
+FetchStudios,1461,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Cascading Analysis
+FetchGenres,1500,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Cascading Analysis
+SetAlbumArtistFromSongs,106,jellyfin-10.11.6/MediaBrowser.Providers/Music/AlbumMetadataService.cs,True,Cascading Analysis
+SetAlbumFromSongs,148,jellyfin-10.11.6/MediaBrowser.Providers/Music/AlbumMetadataService.cs,True,Cascading Analysis
+CheckOrCreateMarker,108,jellyfin-10.11.6/Emby.Server.Implementations/AppBase/BaseApplicationPaths.cs,True,Cascading Analysis
+FindExtraAndAlternativeFiles,67,jellyfin-10.11.6/Emby.Naming/AudioBook/AudioBookListResolver.cs,True,Cascading Analysis
+FindMatch,153,jellyfin-10.11.6/MediaBrowser.Providers/Plugins/StudioImages/StudiosImageProvider.cs,True,Cascading Analysis
+GetVideoBitrateParamValue,2563,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Cascading Analysis
+GetAudioBitrateParam,2669,jellyfin-10.11.6/MediaBrowser.Controller/MediaEncoding/EncodingHelper.cs,True,Cascading Analysis
+GetFirstMusicBrainzId,507,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/AudioFileProber.cs,True,Cascading Analysis
+SaveImageStub,645,jellyfin-10.11.6/MediaBrowser.Providers/Manager/ItemImageProvider.cs,True,Cascading Analysis
+Compare,53,jellyfin-10.11.6/Emby.Server.Implementations/Sorting/AiredEpisodeOrderComparer.cs,True,Cascading + LLM (With Internal Calls)
+ValidateSubFolders,605,jellyfin-10.11.6/MediaBrowser.Controller/Entities/Folder.cs,True,Cascading + LLM (With Internal Calls)
+FetchFromItunesInfo,365,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Cascading Analysis
+GetChannelNumber,163,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/M3uParser.cs,True,Direct Analysis
+GetMediaAttachment,659,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+Compile,908,jellyfin-10.11.6/Emby.Naming/Common/NamingOptions.cs,True,Direct Analysis
+CreateSingleImage,303,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,True,Direct Analysis
+GenerateCode,117,jellyfin-10.11.6/Emby.Server.Implementations/QuickConnect/QuickConnectManager.cs,True,Direct Analysis
+GenerateSecureRandom,186,jellyfin-10.11.6/Emby.Server.Implementations/QuickConnect/QuickConnectManager.cs,True,Direct Analysis
+GetLinkedChild,787,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+GetShare,832,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+Set3DFormat,201,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsDvdDirectory,259,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsDvdFile,274,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsBluRayDirectory,284,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+NormalizeStrmLine,255,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/ProbeProvider.cs,True,Direct Analysis
+FetchShortcutInfo,263,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/ProbeProvider.cs,True,Direct Analysis
+GetPluginPages,101,jellyfin-10.11.6/Jellyfin.Api/Controllers/DashboardController.cs,True,Cascading + LLM (No Internal Calls)
+FetchFromCollectionItemsNode,52,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BoxSetXmlParser.cs,True,Cascading Analysis
+Set3DFormat,240,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Cascading Analysis
+FetchFromCollectionItemsNode,64,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/PlaylistXmlParser.cs,True,Cascading Analysis
+GetClientSupportedFormats,1929,jellyfin-10.11.6/Jellyfin.Api/Controllers/ImageController.cs,True,Cascading + LLM (With Internal Calls)
+GetConfigPages,96,jellyfin-10.11.6/Jellyfin.Api/Controllers/DashboardController.cs,True,Cascading + LLM (With Internal Calls)
+GetOutputFormats,1919,jellyfin-10.11.6/Jellyfin.Api/Controllers/ImageController.cs,True,Cascading + LLM (With Internal Calls)

@@ -1,0 +1,23 @@
+method_name,line_number,file_name,to_static,reasoning
+ToNullableInt,1605,garnet-1.0.92/test/Garnet.test/RespListTests.cs,True,Direct Analysis
+ShowStats,63,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestStats.cs,True,Direct Analysis
+ShowStats,71,garnet-1.0.92/libs/storage/Tsavorite/cs/benchmark/YCSB.benchmark/TestStats.cs,True,Direct Analysis
+_get_register,158,garnet-1.0.92/libs/server/Resp/HyperLogLog/HyperLogLog.cs,True,Direct Analysis
+WriteHeader,12,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteInteger,377,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteInteger,397,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteStringBytes,418,garnet-1.0.92/benchmark/Resp.benchmark/ReqGenUtils.cs,True,Direct Analysis
+WriteHeader,12,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteInteger,40,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteInteger,60,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+WriteStringBytes,81,garnet-1.0.92/playground/ClusterStress/ReqGenUtilsCluster.cs,True,Direct Analysis
+EvaluateExpireInPlace,277,garnet-1.0.92/libs/server/Storage/Functions/MainStore/PrivateMethods.cs,True,Direct Analysis
+EvaluateExpireCopyUpdate,335,garnet-1.0.92/libs/server/Storage/Functions/MainStore/PrivateMethods.cs,True,Direct Analysis
+TryGetResult,507,garnet-1.0.92/libs/server/Objects/ItemBroker/CollectionItemBroker.cs,True,Cascading + LLM (No Internal Calls)
+UpdateSlot,354,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Tsavorite/TsavoriteBase.cs,True,Direct Analysis
+Increment,1166,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (No Internal Calls)
+Compact,92,garnet-1.0.92/libs/storage/Tsavorite/cs/src/core/Index/Recovery/Checkpoint.cs,True,Cascading + LLM (No Internal Calls)
+SET,501,garnet-1.0.92/libs/server/Storage/Session/MainStore/MainStoreOps.cs,True,Cascading + LLM (With Internal Calls)
+MakeUpperCase,659,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)
+Write,1201,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)
+Write,1221,garnet-1.0.92/libs/server/Resp/RespServerSession.cs,True,Cascading + LLM (No Internal Calls)

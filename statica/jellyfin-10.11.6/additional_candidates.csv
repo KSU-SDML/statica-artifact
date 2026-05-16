@@ -1,0 +1,22 @@
+method_name,line_number,file_name,to_static,reasoning
+GetChannelNumber,163,jellyfin-10.11.6/src/Jellyfin.LiveTv/TunerHosts/M3uParser.cs,True,Direct Analysis
+GetMediaAttachment,659,jellyfin-10.11.6/MediaBrowser.MediaEncoding/Probing/ProbeResultNormalizer.cs,True,Direct Analysis
+Compile,908,jellyfin-10.11.6/Emby.Naming/Common/NamingOptions.cs,True,Direct Analysis
+CreateSingleImage,303,jellyfin-10.11.6/Emby.Server.Implementations/Images/BaseDynamicImageProvider.cs,True,Direct Analysis
+GenerateCode,117,jellyfin-10.11.6/Emby.Server.Implementations/QuickConnect/QuickConnectManager.cs,True,Direct Analysis
+GenerateSecureRandom,186,jellyfin-10.11.6/Emby.Server.Implementations/QuickConnect/QuickConnectManager.cs,True,Direct Analysis
+GetLinkedChild,787,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+GetShare,832,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BaseItemXmlParser.cs,True,Direct Analysis
+Set3DFormat,201,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsDvdDirectory,259,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsDvdFile,274,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+IsBluRayDirectory,284,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Direct Analysis
+NormalizeStrmLine,255,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/ProbeProvider.cs,True,Direct Analysis
+FetchShortcutInfo,263,jellyfin-10.11.6/MediaBrowser.Providers/MediaInfo/ProbeProvider.cs,True,Direct Analysis
+FetchFromCollectionItemsNode,52,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/BoxSetXmlParser.cs,True,Cascading Analysis
+Set3DFormat,240,jellyfin-10.11.6/Emby.Server.Implementations/Library/Resolvers/BaseVideoResolver.cs,True,Cascading Analysis
+FetchFromCollectionItemsNode,64,jellyfin-10.11.6/MediaBrowser.LocalMetadata/Parsers/PlaylistXmlParser.cs,True,Cascading Analysis
+GetClientSupportedFormats,1929,jellyfin-10.11.6/Jellyfin.Api/Controllers/ImageController.cs,True,Cascading + LLM (With Internal Calls)
+GetOutputFormats,1919,jellyfin-10.11.6/Jellyfin.Api/Controllers/ImageController.cs,True,Cascading + LLM (With Internal Calls)
+GetPluginPages,101,jellyfin-10.11.6/Jellyfin.Api/Controllers/DashboardController.cs,True,Cascading + LLM (No Internal Calls)
+GetConfigPages,96,jellyfin-10.11.6/Jellyfin.Api/Controllers/DashboardController.cs,True,Cascading + LLM (With Internal Calls)

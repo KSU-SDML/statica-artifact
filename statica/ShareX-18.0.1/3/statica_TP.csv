@@ -1,0 +1,121 @@
+method_name,line_number,file_name,to_static,reasoning
+GetNews,66,ShareX-18.0.1/ShareX/NewsManager.cs,True,Direct Analysis
+ExportNews,84,ShareX-18.0.1/ShareX/NewsManager.cs,True,Direct Analysis
+CreateMetadata,153,ShareX-18.0.1/ShareX/CaptureHelpers/CaptureBase.cs,True,Direct Analysis
+FindCLITask,78,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CheckCustomUploader,99,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CheckImageEffect,114,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CheckParameterForFilePath,157,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CheckCLIWorkflow,174,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CheckNativeMessagingInput,195,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Direct Analysis
+CopyTexts,81,ShareX-18.0.1/ShareX/UploadInfoManager.cs,True,Direct Analysis
+ParseError,403,ShareX-18.0.1/ShareX.UploadersLib/ImageUploaders/Imgur.cs,True,Direct Analysis
+ParseHistoryItem,85,ShareX-18.0.1/ShareX.HistoryLib/HistoryManagerXML.cs,True,Direct Analysis
+CleanBase64,78,ShareX-18.0.1/ShareX.UploadersLib/OAuth/OAuth2ProofKey.cs,True,Direct Analysis
+AppendInputDevice,341,ShareX-18.0.1/ShareX.ScreenCaptureLib/ScreenRecording/ScreenRecordingOptions.cs,True,Direct Analysis
+ListEntryWithArguments,343,ShareX-18.0.1/ShareX.HelpersLib/NameParser/NameParser.cs,True,Direct Analysis
+ParseCLI,97,ShareX-18.0.1/ShareX.HelpersLib/CLI/CLIManager.cs,True,Direct Analysis
+HashCheckThread,86,ShareX-18.0.1/ShareX.HelpersLib/Cryptographic/HashChecker.cs,True,Direct Analysis
+GetArtifacts,51,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/AppVeyor.cs,True,Direct Analysis
+GetArtifactDownloadURL,64,ShareX-18.0.1/ShareX.HelpersLib/UpdateChecker/AppVeyor.cs,True,Direct Analysis
+ParseUploadResponse,141,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,True,Direct Analysis
+PrepareArguments,477,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,True,Direct Analysis
+Read,34,ShareX-18.0.1/ShareX.HelpersLib/NativeMessagingHost.cs,True,Direct Analysis
+Write,54,ShareX-18.0.1/ShareX.HelpersLib/NativeMessagingHost.cs,True,Direct Analysis
+CreateFont,65,ShareX-18.0.1/ShareX.HelpersLib/XmlFont.cs,True,Direct Analysis
+GetTypeOfNextBlock,154,ShareX-18.0.1/ShareX.HelpersLib/GIF/GifClass.cs,True,Direct Analysis
+ThrowAwayExtensionBlock,226,ShareX-18.0.1/ShareX.HelpersLib/GIF/GifClass.cs,True,Direct Analysis
+ToStringWithSpaces,152,ShareX-18.0.1/ShareX.HelpersLib/Input/HotkeyInfo.cs,True,Direct Analysis
+GetDefaultWebProxy,86,ShareX-18.0.1/ShareX.HelpersLib/ProxyInfo.cs,True,Direct Analysis
+CheckExtension,152,ShareX-18.0.1/ShareX.HelpersLib/ExternalProgram.cs,True,Direct Analysis
+CaptureRectangleNative,118,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,True,Direct Analysis
+CaptureRectangleManaged,153,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,True,Direct Analysis
+CreateTransparentImage,166,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot_Transparent.cs,True,Direct Analysis
+TrimShadow,207,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot_Transparent.cs,True,Direct Analysis
+RemoveCorners,325,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot_Transparent.cs,True,Direct Analysis
+GetFooter,161,ShareX-18.0.1/ShareX.IndexerLib/IndexerHtml.cs,True,Direct Analysis
+GetFooter,113,ShareX-18.0.1/ShareX.IndexerLib/IndexerText.cs,True,Direct Analysis
+CreateCanonicalHeaders,313,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/AmazonS3.cs,True,Direct Analysis
+GetSignedHeaders,319,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/AmazonS3.cs,True,Direct Analysis
+GetPrivacy,146,ShareX-18.0.1/ShareX.UploadersLib/TextUploaders/Pastebin.cs,True,Direct Analysis
+GetExpiration,160,ShareX-18.0.1/ShareX.UploadersLib/TextUploaders/Pastebin.cs,True,Direct Analysis
+MigrateOldSyntax,397,ShareX-18.0.1/ShareX.UploadersLib/CustomUploader/CustomUploaderItem.cs,True,Direct Analysis
+ParseAsset,81,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/DropIO.cs,True,Direct Analysis
+GetLinkURL,191,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/Copy.cs,True,Direct Analysis
+DeserializeResponse,192,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/MediaFire.cs,True,Direct Analysis
+GetFolderUrl,186,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/OneDrive.cs,True,Direct Analysis
+DrawHorizontalLine,99,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,True,Cascading + LLM (No Internal Calls)
+DrawVerticalLine,111,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,True,Cascading + LLM (No Internal Calls)
+DrawChecker,123,ShareX-18.0.1/ShareX/Tools/MonitorTestForm.cs,True,Cascading + LLM (No Internal Calls)
+UpdateItem,49,ShareX-18.0.1/ShareX/Forms/QuickTaskMenuEditorForm.cs,True,Cascading + LLM (No Internal Calls)
+lvPresets_ItemMoved,117,ShareX-18.0.1/ShareX/Forms/QuickTaskMenuEditorForm.cs,True,Cascading + LLM (No Internal Calls)
+WorkflowMenuItem,438,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+AddMultiEnumItems,535,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+SetMultiEnumChecked,612,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+PrepareCaptureMenuAsync,1182,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+Edit,136,ShareX-18.0.1/ShareX/Forms/HotkeySettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+GetLocalFilePathAsUri,230,ShareX-18.0.1/ShareX/Forms/AfterUploadForm.cs,True,Cascading + LLM (No Internal Calls)
+AddEnumItemsContextMenu,71,ShareX-18.0.1/ShareX/Forms/ActionsToolbarEditForm.cs,True,Cascading + LLM (No Internal Calls)
+SetDestinations,207,ShareX-18.0.1/ShareX/Controls/BeforeUploadControl.cs,True,Cascading + LLM (No Internal Calls)
+GetCustomUploaderName,252,ShareX-18.0.1/ShareX/Controls/BeforeUploadControl.cs,True,Cascading + LLM (No Internal Calls)
+CheckItem,96,ShareX-18.0.1/ShareX/Forms/AfterCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+IsChecked,101,ShareX-18.0.1/ShareX/Forms/AfterCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+SetMultiEnumCheckedContextMenu,83,ShareX-18.0.1/ShareX/Forms/QuickTaskInfoEditForm.cs,True,Cascading + LLM (No Internal Calls)
+SetEnumCheckedContextMenu,126,ShareX-18.0.1/ShareX/Controls/HotkeySelectionControl.cs,True,Cascading + LLM (No Internal Calls)
+FTPTestAccount,590,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (No Internal Calls)
+SendSpaceRegister,661,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (No Internal Calls)
+OAuth2Open,826,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (No Internal Calls)
+ConfigureOAuthStatus,889,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (No Internal Calls)
+CustomUploaderSyntaxHighlight,93,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSyntaxTestForm.cs,True,Cascading + LLM (No Internal Calls)
+ParseSyntax,128,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSyntaxTestForm.cs,True,Cascading + LLM (No Internal Calls)
+CustomUploaderSerialize,279,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+CheckDataGridView,454,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+DataGridViewToDictionary,493,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+CustomUploaderSyntaxHighlight,691,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+GetFileMetadata,76,ShareX-18.0.1/ShareX/Tools/MetadataForm.cs,True,Cascading + LLM (No Internal Calls)
+StripFileMetadataAsync,150,ShareX-18.0.1/ShareX/Tools/MetadataForm.cs,True,Cascading + LLM (No Internal Calls)
+DrawAutoScaledImage,181,ShareX-18.0.1/ShareX.HelpersLib/Printer/PrintHelper.cs,True,Cascading + LLM (No Internal Calls)
+CreateHeaderBlock,91,ShareX-18.0.1/ShareX.HelpersLib/GIF/AnimatedGifCreator.cs,True,Cascading + LLM (No Internal Calls)
+CreateApplicationExtensionBlock,96,ShareX-18.0.1/ShareX.HelpersLib/GIF/AnimatedGifCreator.cs,True,Cascading + LLM (No Internal Calls)
+CreateGraphicsControlExtensionBlock,121,ShareX-18.0.1/ShareX.HelpersLib/GIF/AnimatedGifCreator.cs,True,Cascading + LLM (No Internal Calls)
+EditListViewItem,312,ShareX-18.0.1/ShareX.HistoryLib/Forms/HistoryForm.cs,True,Cascading + LLM (No Internal Calls)
+Round,399,ShareX-18.0.1/ShareX.HelpersLib/Colors/ColorUserControl.cs,True,Cascading + LLM (No Internal Calls)
+GetKeyEventArgs,114,ShareX-18.0.1/ShareX.HelpersLib/Input/KeyboardHook.cs,True,Cascading + LLM (No Internal Calls)
+SplitImage,56,ShareX-18.0.1/ShareX.MediaLib/Forms/ImageSplitterForm.cs,True,Cascading + LLM (No Internal Calls)
+uintToBigEndianBytes,141,ShareX-18.0.1/ShareX.HelpersLib/Cryptographic/Crc32.cs,True,Cascading + LLM (No Internal Calls)
+ChangeComposition,52,ShareX-18.0.1/ShareX.HelpersLib/DWMManager.cs,True,Cascading + LLM (No Internal Calls)
+AddInfo,73,ShareX-18.0.1/ShareX.UploadersLib/Forms/ResponseForm.cs,True,Cascading + LLM (No Internal Calls)
+SetEnumCheckedContextMenu,603,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+SetMultiEnumCheckedContextMenu,659,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,True,Cascading + LLM (No Internal Calls)
+IsShapeTypeRegion,1804,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/ShapeManager.cs,True,Cascading + LLM (No Internal Calls)
+DrawInfoText,1129,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/RegionCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+DrawRuler,1463,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/RegionCaptureForm.cs,True,Cascading + LLM (No Internal Calls)
+DrawRectangle,72,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/RectangleDrawingShape.cs,True,Cascading + LLM (No Internal Calls)
+CreateTailPath,194,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/SpeechBalloonDrawingShape.cs,True,Cascading + LLM (No Internal Calls)
+CreateTailPath,250,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/StepDrawingShape.cs,True,Cascading + LLM (No Internal Calls)
+AddRecentColor,186,ShareX-18.0.1/ShareX.HelpersLib/Forms/ColorPickerForm.cs,True,Cascading + LLM (No Internal Calls)
+CreateMetadata,143,ShareX-18.0.1/ShareX/CaptureHelpers/CaptureBase.cs,True,Cascading Analysis
+CreateMetadata,148,ShareX-18.0.1/ShareX/CaptureHelpers/CaptureBase.cs,True,Cascading Analysis
+CheckCLIHotkey,129,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Cascading Analysis
+ListEntryWithArgument,356,ShareX-18.0.1/ShareX.HelpersLib/NameParser/NameParser.cs,True,Cascading Analysis
+ListEntryWithValues,364,ShareX-18.0.1/ShareX.HelpersLib/NameParser/NameParser.cs,True,Cascading Analysis
+ListEntryWithValue,380,ShareX-18.0.1/ShareX.HelpersLib/NameParser/NameParser.cs,True,Cascading Analysis
+PrepareArguments,497,ShareX-18.0.1/ShareX.UploadersLib/FileUploaders/SendSpace.cs,True,Cascading Analysis
+CaptureRectangleNative,112,ShareX-18.0.1/ShareX.ScreenCaptureLib/Screenshot.cs,True,Cascading Analysis
+Edit,67,ShareX-18.0.1/ShareX/Forms/QuickTaskMenuEditorForm.cs,True,Cascading + LLM (With Internal Calls)
+SetEnumCheckedContextMenu,121,ShareX-18.0.1/ShareX/Controls/HotkeySelectionControl.cs,True,Cascading + LLM (With Internal Calls)
+OAuth2Complete,851,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (With Internal Calls)
+OAuth2Refresh,870,ShareX-18.0.1/ShareX.UploadersLib/Forms/UploadersConfigFormHelper.cs,True,Cascading + LLM (With Internal Calls)
+CustomUploaderUpdateFolder,309,ShareX-18.0.1/ShareX.UploadersLib/Forms/CustomUploaderSettingsForm.cs,True,Cascading + LLM (With Internal Calls)
+GetFileMetadataAsync,110,ShareX-18.0.1/ShareX/Tools/MetadataForm.cs,True,Cascading + LLM (With Internal Calls)
+SplitImageAsync,80,ShareX-18.0.1/ShareX.MediaLib/Forms/ImageSplitterForm.cs,True,Cascading + LLM (With Internal Calls)
+SetEnumCheckedContextMenu,598,ShareX-18.0.1/ShareX/Forms/TaskSettingsForm.cs,True,Cascading + LLM (With Internal Calls)
+DrawInfoText,1123,ShareX-18.0.1/ShareX.ScreenCaptureLib/Forms/RegionCaptureForm.cs,True,Cascading + LLM (With Internal Calls)
+DrawTail,220,ShareX-18.0.1/ShareX.ScreenCaptureLib/Shapes/Drawing/StepDrawingShape.cs,True,Cascading + LLM (With Internal Calls)
+UseCommandLineArgs,46,ShareX-18.0.1/ShareX/ShareXCLIManager.cs,True,Cascading Analysis
+IsValidHistoryItem,90,ShareX-18.0.1/ShareX.HistoryLib/HistoryManager.cs,True,Direct Analysis
+HandleHotkeys,385,ShareX-18.0.1/ShareX/Forms/MainForm.cs,True,Cascading + LLM (No Internal Calls)
+Write,122,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteLine,127,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteLine,132,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
+WriteException,142,ShareX-18.0.1/ShareX.HelpersLib/Logger.cs,True,Cascading Analysis
