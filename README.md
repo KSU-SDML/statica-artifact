@@ -24,7 +24,6 @@ The `statica-artifact` repository is organized into the following directories:
     * `*.metadata.csv`: Detailed method-level and class-level metadata reports (e.g., field usage, inheritance).
     * `*.stereotypes.xml`: The srcML archives annotated with method stereotype XML attributes.
 * **`/systems`**: The original, zipped source code repositories for the four target systems used in the evaluation.
-* **systems**: Contains the complete, zipped source code for the evaluated C# target systems. These exact versions were used to generate the reference sets and run the Statica evaluation.
 * **`statistics.xlsx`**: An aggregated spreadsheet containing the raw execution logs, cross-run analysis, and execution time performance metrics (organized into "Runs", "Analysis", and "Performance" tabs).
 ---
 
